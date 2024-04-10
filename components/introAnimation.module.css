@@ -1,0 +1,66 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 200;
+    background-color: #000000;
+    animation: bgFadeIn 1s forwards ease;
+}
+.homeContent{
+  min-width: 80vw;
+  min-height: 90vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homeContent img{
+    opacity: 0;
+  max-width: 16vw;
+  min-width: 300px;
+  height: auto;
+  animation: fadeIn 2s forwards cubic-bezier(0, 0.4, 0.65, 1);
+}
+
+.homeContent h1{
+    opacity: 0;
+    color: #0e0e0e;
+    animation: fadeIn 2s forwards cubic-bezier(0, 0.4, 0.65, 1);
+    animation-delay: 0.5s;
+}
+.homeContent h2{
+    opacity: 0 ;
+    color: #161616;
+    animation: fadeIn 2s forwards cubic-bezier(0, 0.4, 0.65, 1);
+    animation-delay: 1s;
+}
+.homeContent a{
+    color: #00000000;
+}
+.fadeOut {
+    transition: opacity 1s ease;
+    opacity: 0;
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: scale(1.4);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes bgFadeIn{
+    0%{
+        background-color: #000000;
+    }
+    100%{
+        background-color: #e3e3e3;
+    }
+}
