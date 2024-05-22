@@ -61,3 +61,60 @@ a:hover{
   color: #fff;
   letter-spacing: 2.5px;
 }
+
+.primaryCTA{
+  color: #ffffff;
+  background-color: #4fc541;
+  border: none;
+  padding: 1rem 2rem 0.5rem 2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 25px 0px #00000035;
+  transition: all 0.4s ease;
+}
+.primaryCTA a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: calc(1rem + 1vw);
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin:0;
+}
+.primaryCTA:hover{
+  background-color: #ffffff;
+  transform: scale(1.05);
+  
+}
+.primaryCTA a:hover{
+  color: #4fc541;
+  letter-spacing: 2px;
+}
+
+.secondaryCTA {
+  background-color: rgb(56, 69, 214);
+  padding: 1rem 2rem 0.5rem 2rem;
+  border: none;
+  color: #ffffff;
+  box-shadow: 0px 0px 25px 0px #00000035;
+  border-radius: 1rem;
+  transition: all 0.4s ease;
+}
+.secondaryCTA a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: calc(1rem + 1vw);
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin:0;
+}
+.secondaryCTA:hover{
+  background-color: #ffffff;
+  transform: scale(1.02);
+  
+}
+.secondaryCTA a:hover{
+  color: rgb(57, 70, 207);
+  letter-spacing: 2px;
+}

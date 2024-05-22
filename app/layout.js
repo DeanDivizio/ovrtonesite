@@ -1,5 +1,6 @@
 import "./globals.css";
 import IntroAnimation from "../components/IntroAnimation";
+import Nav from '../components/nav/Nav';
 
 export const metadata = {
   title: "OVRTONE Media Group",
@@ -11,10 +12,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='layoutContainer'>
-      <IntroAnimation />
+      {/* <IntroAnimation /> */}
       <video autoPlay loop="loop" muted id="bgVid">
         <source src="https://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
         </video>
+        <Nav />
         {children}
       </body>
     </html>

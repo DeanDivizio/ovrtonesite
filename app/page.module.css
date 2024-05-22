@@ -1,8 +1,8 @@
 .homeContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: top;
+    justify-content: space-around;
     height: 100vh;
     width: 100vw;
     z-index: 100;
@@ -10,15 +10,46 @@
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.35) 16%, rgba(0, 0, 0, 0.35) 84%, rgba(0, 0, 0,0.65) 100%);
 }
 .homeContent{
-  min-width: 80vw;
+  min-width: 500px;
+  width: 50vw;
   min-height: 90vh;
   display:flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  
 }
-.homeContent img{
-  max-width: 16vw;
+.homeContent h1{
+  font-size: calc(3rem + 5vw);
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  color: #00000000;
+  background-image: linear-gradient(165deg, rgb(255, 255, 255) 10%, rgb(0, 64, 255) 60%);
+  background-clip: text;
+}
+.nonEmpHeading{
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  color: #ffffff;
+}
+.homeContent p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: calc(1rem + 1vw);
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+}
+.image{
   min-width: 300px;
+  width: 30vw;
   height: auto;
+}
+.ctaButtons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2vh;
+}
+.ctaButtons button {
+  margin-right: 2rem;
 }
