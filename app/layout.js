@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body className='layoutContainer'>
       <IntroAnimation />
       <video autoPlay loop="loop" muted id="bgVid">
-        <source src="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
+        <source src="https://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
         </video>
         {children}
       </body>
