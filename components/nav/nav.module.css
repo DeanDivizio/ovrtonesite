@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 2rem;
-    background-color: #00000000;
-    position: fixed;
+    height:8vh;
+    padding: 0 2rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
     z-index: 100;
     width: calc(100vw - 4rem);
+    backdrop-filter: blur(100px);
 }
 .links *{
     margin: 0 1rem;
@@ -22,7 +24,7 @@
     letter-spacing: 2px;
 }
 
-.brand {
+.brand *{
     font-family: 'Cinzel Decorative', cursive;
     font-size: 2rem;
     font-weight: 700;

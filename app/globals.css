@@ -5,6 +5,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
+  overflow-x: hidden;
 }
 
 body{
@@ -37,7 +38,7 @@ h1{
   letter-spacing: 3px;
 }
 h2{
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: calc(2rem + 2vw);
   font-weight: 400;
   color: #fff;
@@ -117,4 +118,13 @@ a:hover{
 .secondaryCTA a:hover{
   color: rgb(57, 70, 207);
   letter-spacing: 2px;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: calc(1rem + 1vw);
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  margin: 0;
 }
