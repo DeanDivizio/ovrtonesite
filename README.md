@@ -9,7 +9,9 @@ V3 of the OVRTONE site is currently in development. This is our list of changes 
     - Pricing?
 - Redesign Homepage
 - Make Navbar
+- Make Footer
 - Optomize metadata
+- Write content
 
 ## Down the Line
 - User management
