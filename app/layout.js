@@ -4,6 +4,7 @@ import IntroAnimation from "../components/IntroAnimation";
 export const metadata = {
   title: "OVRTONE Media Group",
   description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media and design solutions tailored for small businesses and individuals.",
+  icon: "/images/logo.jpg",
 };
 
 export default function RootLayout({ children }) {
