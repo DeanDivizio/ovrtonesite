@@ -57,7 +57,7 @@ export default function Home() {
       </div> */}
       <div className={styles.testimonialsSection}>
         <h2>Testimonials</h2>
-        <p>Here's what some of our clients have to say about us.</p>
+        <p>{`Here's what some of our clients have to say about us.`}</p>
         <div className={styles.testimonials}>
           {/* cards that represent testimonials */}
           <Testimonial 
@@ -71,7 +71,7 @@ export default function Home() {
       </div>
       <div className={styles.contactSection}>
         <h2>Contact Us</h2>
-        <p>Ready to take your business to the next level? Let's get started.</p>
+        <p>{`Ready to take your business to the next level? Let's get started.`}</p>
         <div className={styles.ctaButtons}>
           <button className="primaryCTA">
             <Link href="/contact">Contact Us</Link>
