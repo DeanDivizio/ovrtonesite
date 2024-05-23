@@ -101,9 +101,18 @@
   min-height: 80vh;
   background-color: #00000000;
   color: #ffffff;
-  padding: 10vh 2rem;
+  padding: 10vh 2rem 8vh 2rem;
 }
+.servicesCards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10vh;
 
+}
 .ourWorkSection{
   display: flex;
   flex-direction: column;
@@ -123,9 +132,18 @@
   justify-content: flex-start;
   width: 100vw;
   min-height: 80vh;
-  background-color: #bfbfbf;
-  color: #2e2e2e;
+  background-color: #000000;
   padding: 10vh 2rem;
+}
+.testimonials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10vh;
+
 }
 
 .contactSection{

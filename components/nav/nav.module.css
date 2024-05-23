@@ -27,7 +27,11 @@
 .brand *{
     font-family: 'Cinzel Decorative', cursive;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 100;
     color: #ffffff;
     text-decoration: none;
+}
+.brand * span{
+    font-weight: 700;
+    margin-right: 0.3rem;
 }

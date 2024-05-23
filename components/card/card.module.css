@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    max-width: 450px;
+    border-radius: 10px;
+    padding: 2vh 2vw;
+    background-image: linear-gradient(120deg, #f0efef 0%, #d2d2d2 100%);
+    box-shadow: 0 0px 25px rgba(255, 255, 255, 0.247);
+    transition: transform 0.3s;
+}
+.card h3{
+    margin-bottom: 2rem;
+    color: #161616;
+    font-size: calc(1.5rem + 1vw);
+}
+.card button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(0.5rem + 1vw);
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 0px #00000035;
+    transition: all 0.4s ease;
+}
+.card img{
+    filter:invert(0);
+    width: 12vw;
+    min-width: 300px;
+}
+.card button:hover {
+    color:#4fc541;
+}

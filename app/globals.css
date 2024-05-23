@@ -46,6 +46,15 @@ h2{
   margin-top: 0;
   margin-bottom: 2vh;
 }
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: calc(1rem + 2vw);
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px 10px #000;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
 a{
   font-family: 'Josefin Sans', sans-serif;
   font-size: calc(1rem + 1vw);

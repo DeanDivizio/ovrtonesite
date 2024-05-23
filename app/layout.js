@@ -1,6 +1,7 @@
 import "./globals.css";
 import IntroAnimation from "../components/IntroAnimation";
 import Nav from '../components/nav/Nav';
+import Footer from '../components/footer/Footer';
 
 export const metadata = {
   title: "OVRTONE Media Group",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         </video>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

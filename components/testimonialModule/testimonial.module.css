@@ -1,0 +1,66 @@
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    padding: 2vh 1vw;
+    margin: 20px;
+    border-radius: 2rem;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.imageSection {
+    width:30%;
+}
+.imageSection img {
+    width: 100%;
+    border-radius: 2rem;
+}
+.textSection {
+    width:60%;
+    padding: 20px;
+}
+.textSection p {
+    font-size: calc(1.5rem + 1vw);
+    font-weight: 300;
+    color: #4fc541;
+    margin-bottom: 5vh;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.info * {
+    margin: 0 1rem 0 0;
+}
+.name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(1rem + 1vw);
+    font-weight: 600;
+    color: #454545;
+    margin-left: 1rem;
+}
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(1rem + 1vw);
+    font-weight: 300;
+    color: #000000;
+}
+.company a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(1rem + 1vw);
+    font-weight: 300;
+    color: #363636;
+    text-decoration: underline;
+}
+.company a:hover {
+    color: rgb(56, 69, 214);
+    letter-spacing: 2px;
+}
