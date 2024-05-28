@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ServicesPage = () => {
+const SolutionsPage = () => {
     return (
         <div>
             {/* Your component content goes here */}
@@ -8,4 +8,4 @@ const ServicesPage = () => {
     );
 };
 
-export default ServicesPage;
+export default SolutionsPage;

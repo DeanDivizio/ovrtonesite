@@ -12,10 +12,10 @@ body{
   height: 100vh;
   width: 100vw;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.93);
 }
 
-#bgVid{
+/* #bgVid{
   position: absolute;
   top: 0;
   left: 0;
@@ -25,7 +25,7 @@ body{
   padding: 0;
   object-fit: cover;
   z-index: -10;
-}
+} */
 
 h1{
   font-family: 'Cinzel Decorative', cursive;

@@ -14,9 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className='layoutContainer'>
       {/* <IntroAnimation /> */}
-      <video autoPlay loop="loop" muted id="bgVid">
-        <source src="https://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
-        </video>
         <Nav />
         {children}
         <Footer />

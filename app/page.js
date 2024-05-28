@@ -7,6 +7,12 @@ import Testimonial from "@/components/testimonialModule/Testimonial";
 export default function Home() {
   return (
    <div className={styles.homeContainer}>
+    <div className={styles.video}>
+      <video autoPlay loop="loop" muted id="bgVid" >
+        <source src="https://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
+      </video>
+    </div>
+    <div className={styles.overlay}></div>
       <div className={styles.heroContent}>
         <div className={styles.heroText}>
         <h1>Realize <span className={styles.nonEmpHeading}>Your Goals</span></h1>
@@ -20,7 +26,7 @@ export default function Home() {
           </button>
           </div>
         </div>
-        <img className={styles.image} src="http://api.ovrtonemedia.com/wp-content/uploads/2023/04/0A3A9955-Edit-Large.jpeg" alt="Example imgage replace this text" />
+        {/* <img className={styles.image} src="http://api.ovrtonemedia.com/wp-content/uploads/2023/04/0A3A9955-Edit-Large.jpeg" alt="Example imgage replace this text" /> */}
       </div>
       <div className={styles.chevron}>&#9660;</div>
       <div className={styles.whatWeDoSection}>
@@ -43,18 +49,8 @@ export default function Home() {
             description="We create beautiful, responsive websites that look great on any device."
             image="/images/pencilIcon.png"
             link="/services" />
-            <Card
-            title="Analytics & SEO"
-            description="We create beautiful, responsive websites that look great on any device."
-            image="/images/graphIcon.png"
-            link="/services" />
         </div>
       </div>
-      {/* <div className={styles.ourWorkSection}>
-        <h2>Our Work</h2>
-        <p>Check out some of the projects we've worked on for our clients.</p>
-        {/* cards that represent projects
-      </div> */}
       <div className={styles.testimonialsSection}>
         <h2>Testimonials</h2>
         <p>{`Here's what some of our clients have to say about us.`}</p>
