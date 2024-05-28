@@ -12,6 +12,7 @@ V3 of the OVRTONE site is currently in development. This is our list of changes 
 - Make Footer
 - Optomize metadata
 - Write content
+- Implement wordpress as CMS
 
 ## Down the Line
 - User management

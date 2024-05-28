@@ -49,31 +49,82 @@
     letter-spacing: 2px;
     cursor:pointer;
 }
-
-.dropdown {
+.menu{
     display: flex;
-    position: fixed;
-    top: 80px;
-    right: 5vw;
     flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin:0;
+    width: 100vw;
+    height: 40vh;
+    padding: 30vh 0;
     justify-content: space-around;
-    background-color: #001b041f;
-    border-radius: 1rem;
-    backdrop-filter: blur(100px);
-    min-width: 160px;
-    width: 16vw;
-    height: 8rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: -1;
-    opacity: 0;
-    transform: scale(0.9);
-    padding: 1rem;
-    text-align: right;
-    transition: all 0.1s ease;
-}
-
-.visible{
-    z-index: 1;
+    align-items: flex-end;
+    z-index: 100;
     opacity: 1;
-    transform: scale(1);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0.65) 100%);
+    backdrop-filter: blur(100px);
+    transition: all 0.3s ease;
+    animation: enterFromRight 0.3s cubic-bezier(0,0.4,0.6,1) forwards;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 66%);
+    mask-size: 300%;
+}
+@keyframes enterFromRight{
+    from{
+        mask-position: 0% 0%; 
+    }
+    to{
+        mask-position: 100% 0%;
+    }
+}
+.exit{
+    mask-position: 0% 0%;
+    opacity: 0; 
+}
+.menu *{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 0 5vw;
+}
+.menuClose{
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.menu * p{
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0,0.4,0.6,1);
+    color: #ffffff;
+}
+.menu * p:hover{
+   letter-spacing: 0.15rem;
+    font-weight: 800;
+}
+.menuImage{
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 40vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    transform: translate(75%, 0%);
+    box-shadow: 0px 0px 35px -10px rgba(255, 255, 255, 0.1);
+    
+}
+.menuImage img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 0;
+    margin: 0;
+    filter: blur(15px) grayscale(50%) brightness(35%);;
 }

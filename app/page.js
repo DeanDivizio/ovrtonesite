@@ -72,7 +72,7 @@ export default function Home() {
           <button className="primaryCTA">
             <Link href="/contact">Contact Us</Link>
           </button>
-          <p>or... </p>
+          <p style={{marginRight: '2rem'}}>or... </p>
           <button className="secondaryCTA">
             <Link href="/pricing">View Pricing</Link>
           </button>
