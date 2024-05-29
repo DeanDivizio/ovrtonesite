@@ -4,9 +4,7 @@
     align-items: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
-    min-height: 100vh;
     width: 100vw;
-    z-index: 100;
 }
 .video{
   height: 100vh;
@@ -39,32 +37,27 @@
   min-width: 500px;
   width: 100vw;
   padding: 0;
-  min-height: 84vh;
+  min-height: 94vh;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #00000000;
-  /* backdrop-filter: blur(25px);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, rgba(3, 6, 7, 0.75) 16%, rgba(5, 9, 11, 0.75) 84%, rgba(0, 0, 0,0.85) 100%);
-  mask-image: linear-gradient(to right, #ffffff 50%, #000000 100%); */
-}
-.heroContent video{
-  position: relative;
-  z-index: -1;
 }
 .heroText{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  max-width: 50%;
-  margin-left: 5vw;
+  max-width: 90%;
+  text-align: center;
+  padding-top: 15vh;
 }
 .heroContent h1{
-  font-size: calc(3rem + 5vw);
+  font-size: calc(4rem + 5vw);
+  line-height: 95%;
   font-weight: 700;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.6rem;
   color: #00000000;
   background-image: linear-gradient(165deg, rgb(255, 255, 255) 10%, rgb(0, 64, 255) 60%);
   background-clip: text;
@@ -73,7 +66,7 @@
 .nonEmpHeading{
   font-size: calc(3rem + 4vw);
   font-weight: 500;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.8rem;
   color: #ffffff;
 }
 .heroContent p{
@@ -81,7 +74,7 @@
   font-size: calc(1rem + 1vw);
   font-weight: 300;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   margin-bottom: 4vh;
 }
 .image{
@@ -96,14 +89,14 @@
   margin-top: 2vh;
 }
 .ctaButtons button {
-  margin-right: 2rem;
+  margin: 2rem 0rem;
 }
 
 
 .chevron{
   font-size: 2rem;
   color: #ffffff24;
-  margin-top: 2vh;
+  margin-top: 15vh;
   width: 100%;
   text-align: center;
   animation: pulse 3s ease-in-out 0s infinite forwards;
@@ -132,7 +125,8 @@
   justify-content: flex-start;
   width: 100vw;
   min-height: 80vh;
-  background-color: #00000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.972),rgba(0, 0, 0, 0.98)), url(http://api.ovrtonemedia.com/wp-content/uploads/2024/05/308781-white-geometric-wallpaper-geometry-triangle-monochrome-hd.jpg);
+  background-size: cover;
   color: #ffffff;
   padding: 10vh 2rem 8vh 2rem;
 }
@@ -199,7 +193,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.66)), url(https://api.ovrtonemedia.com/wp-content/uploads/2024/02/IMG_0184.jpg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.66)), url(http://api.ovrtonemedia.com/wp-content/uploads/2024/05/VideoProductionBG_v1.jpg);
   background-size: cover;
   filter: blur(10px);
   z-index: -1;

@@ -7,12 +7,20 @@ V3 of the OVRTONE site is currently in development. This is our list of changes 
     - About
     - Contact
     - Pricing?
-- Redesign Homepage
-- Make Navbar
-- Make Footer
+- ~~Redesign Homepage~~
+	- need refinement but are in good state as of 5/29/24
+- ~~Make Navbar~~
+	- done as of 5/28/24
+- ~~Make Footer~~
+	- done as of 5/28/24
 - Optomize metadata
 - Write content
-- Implement wordpress as CMS
+	- started this on 5/29/24
+- ~~solutions pages~~
+	- need refinement but are in good state as of 5/29/24
+- ~~Implement wordpress as CMS~~
+	- just going to hard code everything
+- animations
 
 ## Down the Line
 - User management

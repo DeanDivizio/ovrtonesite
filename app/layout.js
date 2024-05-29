@@ -5,8 +5,16 @@ import Footer from '../components/footer/Footer';
 
 export const metadata = {
   title: "OVRTONE Media Group",
-  description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media and design solutions tailored for small businesses and individuals.",
+  description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media and design solutions tailored for small businesses.",
   icon: "/images/logo.jpg",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot:{
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

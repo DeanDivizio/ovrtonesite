@@ -126,5 +126,5 @@
     object-position: center;
     padding: 0;
     margin: 0;
-    filter: blur(15px) grayscale(50%) brightness(35%);;
+    filter: grayscale(50%) brightness(35%);;
 }

@@ -15,38 +15,41 @@ export default function Home() {
     <div className={styles.overlay}></div>
       <div className={styles.heroContent}>
         <div className={styles.heroText}>
-        <h1>Realize <span className={styles.nonEmpHeading}>Your Goals</span></h1>
+        <h1>Realize <span className={styles.nonEmpHeading}><br></br>Your Goals</span></h1>
         <p>At OVRTONE Media Group, we leverage our skills across the fields of media, technology, and design to help you land more customers, get more sales, and ultimately <em><strong>increase your bottom line.</strong></em></p>
         <div className={styles.ctaButtons}>
           <button className="primaryCTA">
-            <Link href="/contact">Contact Us</Link>
+            <Link href="/contact">Get Started</Link>
           </button>
-          <button className="secondaryCTA">
+          {/* <button className="secondaryCTA">
             <Link href="/services">View Our Services</Link>
-          </button>
+          </button> */}
           </div>
         </div>
+        <div className={styles.chevron}>&#9660;</div>
         {/* <img className={styles.image} src="http://api.ovrtonemedia.com/wp-content/uploads/2023/04/0A3A9955-Edit-Large.jpeg" alt="Example imgage replace this text" /> */}
       </div>
-      <div className={styles.chevron}>&#9660;</div>
       <div className={styles.whatWeDoSection}>
         <h2>What Do We Do?</h2>
         <p>In short, everything you need to turn your <em>business</em> into a <em>brand</em>.</p>
         <div className={styles.servicesCards}>
           {/* cards that represent services */}
           <Card
-            title="Web Design & Development"
+            title="Web Development"
             description="We create beautiful, responsive websites that look great on any device."
             image="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3204474/desktop-icon-sm.png"
+            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDesignCardBG_v2.jpg'
             link="/services" />
             <Card
-            title="Video Production & Photography"
+            title="Media Production"
             description="We create beautiful, responsive websites that look great on any device."
             image="/images/cameraIcon.png"
+            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/MediaProductionCardBG_v1.jpg'
             link="/services" />
             <Card
-            title="Logo & Brand Design"
+            title="Brand Design"
             description="We create beautiful, responsive websites that look great on any device."
+            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BrandDesignCardBG_v1.jpg'
             image="/images/pencilIcon.png"
             link="/services" />
         </div>
@@ -72,7 +75,7 @@ export default function Home() {
           <button className="primaryCTA">
             <Link href="/contact">Contact Us</Link>
           </button>
-          <p style={{marginRight: '2rem'}}>or... </p>
+          <p style={{marginRight: '2rem', marginLeft:'2rem'}}>or... </p>
           <button className="secondaryCTA">
             <Link href="/pricing">View Pricing</Link>
           </button>
