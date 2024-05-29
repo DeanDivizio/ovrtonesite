@@ -8,11 +8,11 @@ export const metadata = {
   description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media and design solutions tailored for small businesses.",
   icon: "/images/logo.jpg",
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     googleBot:{
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
     },
   },
 };
