@@ -14,7 +14,7 @@ function WebPage() {
             </div>
             <div className={styles.intro}>
                 <h2>{`Your Brand's Home Base`}</h2>
-                <p>{`With everything from cell phones to refrigerators being online, the question isn't`} <em>"Do I need a website?"</em>{` (yes, you do) it's,`}<em>"How do I get the best website for my business?"</em></p> 
+                <p>{`With everything from cell phones to refrigerators being online, the question isn't`} <em>{`"Do I need a website?"`}</em>{` (yes, you do) it's,`}<em>{`"How do I get the best website for my business?`}"</em></p> 
                 <br />
                 <p>As you might imagine, we have some thoughts on that.</p>
             </div>
@@ -37,7 +37,7 @@ function WebPage() {
                 </div>
             </div>
             <div className={styles.testimonial}>
-                <h2>Don't Just Take Our Word For It</h2>
+                <h2>{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
                 title="Owner"

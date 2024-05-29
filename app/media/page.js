@@ -37,7 +37,7 @@ function MediaPage() {
                 </div>
             </div>
             <div className={styles.testimonial}>
-                <h2>Don't Just Take Our Word For It</h2>
+                <h2>{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
                 title="Owner"
