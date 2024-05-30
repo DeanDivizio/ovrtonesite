@@ -8,7 +8,7 @@ export default function Home() {
   return (
    <div className={styles.homeContainer}>
     <div className={styles.video}>
-      <video autoPlay loop="loop" muted id="bgVid" >
+      <video autoPlay loop="loop" muted playsInline id="bgVid" >
         <source src="https://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
       </video>
     </div>
@@ -33,7 +33,6 @@ export default function Home() {
         <h2>What Do We Do?</h2>
         <p>In short, everything you need to turn your <em>business</em> into a <em>brand</em>.</p>
         <div className={styles.servicesCards}>
-          {/* cards that represent services */}
           <Card
             title="Web Development"
             description="We create beautiful, responsive websites that look great on any device."
@@ -42,13 +41,13 @@ export default function Home() {
             link="/services" />
             <Card
             title="Media Production"
-            description="We create beautiful, responsive websites that look great on any device."
+            description="Represent your brand with media that resonates."
             image="/images/cameraIcon.png"
             bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/MediaProductionCardBG_v1.jpg'
             link="/services" />
             <Card
             title="Brand Design"
-            description="We create beautiful, responsive websites that look great on any device."
+            description="Starting from scratch? We can deliver everything you need to get started."
             bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BrandDesignCardBG_v1.jpg'
             image="/images/pencilIcon.png"
             link="/services" />
@@ -58,7 +57,6 @@ export default function Home() {
         <h2>Testimonials</h2>
         <p>{`Here's what some of our clients have to say about us.`}</p>
         <div className={styles.testimonials}>
-          {/* cards that represent testimonials */}
           <Testimonial 
             name="Drew Rautenberg"
             title="Owner"

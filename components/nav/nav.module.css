@@ -128,3 +128,20 @@
     margin: 0;
     filter: grayscale(50%) brightness(35%);;
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: row;
+        margin-top: 2vh;
+        padding: 0 1rem;
+        justify-content: space-between;
+        width: calc(100vw - 2rem);
+    }
+    .brand{
+        max-width: 50%;
+    }
+    .brand a p{
+        font-size: 1.2rem;
+    }
+
+}

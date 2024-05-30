@@ -61,3 +61,17 @@
     height: auto;
     filter: invert(1);
 }
+@media screen and (max-width: 768px){
+    .footer{
+        height: 20vh;
+        flex-direction: row;
+    }
+    .linksLeft, .linksRight, .centerContent{
+        width: 33%;
+        height: 80%;
+    }
+    .centerContent img{
+        width: 50%;
+    }
+    
+}

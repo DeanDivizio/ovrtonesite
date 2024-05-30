@@ -64,3 +64,30 @@
     color: rgb(56, 69, 214);
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 768px) {
+    .testimonial {
+        flex-direction: column-reverse;
+        padding: 2vh 1vw 1vh 1vw;
+    }
+    .imageSection {
+        width: 90%;
+    }
+    .textSection {
+        width: 100%;
+    }
+    .info{
+        flex-direction: column;
+        text-align: center;
+    }
+    .company{
+        margin-right: 0;
+    }
+    .company a{
+        margin-right: 0;
+    }
+    .title{
+        margin-right: 0;
+    }
+    
+}

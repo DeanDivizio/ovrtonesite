@@ -32,11 +32,16 @@
   /* mask-image: linear-gradient(to right, #ffffff 35%, #00000000 100%); */
 
 }
+@media screen and (max-width: 768px){
+  .overlay{
+    backdrop-filter: blur(35px);
+  }
+}
+
 .heroContent{
   margin: 6vh 0 0 0;
-  min-width: 500px;
-  width: 100vw;
-  padding: 0;
+  width: calc(100vw - 10vw);
+  padding: 0vw 5vw;
   min-height: 94vh;
   display:flex;
   flex-direction: column;
@@ -54,7 +59,7 @@
   padding-top: 15vh;
 }
 .heroContent h1{
-  font-size: calc(4rem + 5vw);
+  font-size: calc(3.5rem + 5vw);
   line-height: 95%;
   font-weight: 700;
   letter-spacing: 0.6rem;
@@ -71,7 +76,7 @@
 }
 .heroContent p{
   font-family: 'Josefin Sans', sans-serif;
-  font-size: calc(1rem + 1vw);
+  font-size: calc(2rem + 1vw);
   font-weight: 300;
   color: #ffffff;
   text-align: center;
@@ -91,8 +96,6 @@
 .ctaButtons button {
   margin: 2rem 0rem;
 }
-
-
 .chevron{
   font-size: 2rem;
   color: #ffffff24;
@@ -117,6 +120,31 @@
     transform: scale(1);
   }
 }
+@media screen and (max-width: 768px) {
+  
+  .heroText{
+    padding-top: 15vh;
+  }
+  .heroText h1{
+    margin-bottom: 5vh;
+    font-size: 4rem;
+    line-height: 120%;
+  }
+  .heroContent p{
+    margin-bottom: 1vh;
+    font-size: 1.5rem;
+  }
+  .nonEmpHeading{
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .chevron{
+    margin-top: 5vh;
+  
+  }
+  
+}
+
 
 .whatWeDoSection {
   display: flex;
@@ -140,6 +168,18 @@
   margin-top: 10vh;
 
 }
+@media screen and (max-width: 768px){
+  .whatWeDoSection{
+    padding: 10vh 5vw;
+    width: calc(100vw - 10vw);
+  }
+  .whatWeDoSection p{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+}
+
 .ourWorkSection{
   display: flex;
   flex-direction: column;
@@ -151,6 +191,8 @@
   color: #ffffff;
   padding: 10vh 2rem;
 }
+
+
 
 .testimonialsSection{
   display: flex;
@@ -173,6 +215,18 @@
   margin-top: 10vh;
 
 }
+@media screen and (max-width: 768px){
+  .testimonialsSection{
+    padding: 10vh 5vw;
+    width: calc(100vw - 10vw);
+  }
+  .testimonialsSection p{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+}
+
 
 .contactSection {
   position: relative;
@@ -197,4 +251,22 @@
   background-size: cover;
   filter: blur(10px);
   z-index: -1;
+}
+@media screen and (max-width: 768px){
+  .contactSection{
+    padding: 10vh 5vw;
+    width: calc(100vw - 10vw);
+  }
+  .contactSection p{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .contactSection .ctaButtons{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactSection .ctaButtons button a{
+    font-size: 1.5rem;
+  }
+  
 }

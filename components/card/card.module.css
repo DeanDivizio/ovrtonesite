@@ -43,3 +43,20 @@
     line-height: 120%;
     letter-spacing: 0.1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        height: 60vh;
+        margin-bottom: 10vh;
+    }
+    .card h3{
+        font-size: 3.5rem;
+    }
+    .card p{
+        font-size: 2rem;
+    }
+    .card button{
+        font-size: 1.5rem;
+    }
+    
+}
