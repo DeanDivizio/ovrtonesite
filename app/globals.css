@@ -10,14 +10,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
-  overflow-x: hidden;
 }
 
 body{
   height: 100vh;
   width: 100vw;
+  padding-right: 0;
+  padding-left: 0;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.93);
+  overflow-x: hidden;
 }
 
 /* #bgVid{

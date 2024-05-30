@@ -58,5 +58,8 @@
     .card button{
         font-size: 1.5rem;
     }
+    .smallTXT{
+        font-size: 0.5rem;
+    }
     
 }

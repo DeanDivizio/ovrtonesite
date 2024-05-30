@@ -19,6 +19,16 @@
   background-clip: text;
   color: transparent;
 }
+@media screen and (max-width: 768px){
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
 .intro {
     display: flex;
     justify-content: center;

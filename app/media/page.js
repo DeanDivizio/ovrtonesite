@@ -22,15 +22,15 @@ function MediaPage() {
                 <h2>Why Choose OVRTONE?</h2>
                 <p>{`At OVRTONE Media Group, Media Production is our bread and butter. In fact, it's how we got our start! Between being passionate creatives and (equally passionate) nerds, you can rest easy knowing that we'll use every tool in the toolbox to nail your creative vision on-time and on-budget, every time.`}</p>
                 <div className={styles.services}>
-                    <Card 
+                    <Card smallTXT
                     title={`Video`}
                     description={`If a picture is worth a thousand words, a video is worth... well, a lot. Videos are a powerful tool to show authenticity, showcase your products, and connect with your audience. From ads to testimonials and everything in between, OVRTONE has what you need to tell your story.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/LogoDesignCardBG_v2.jpg'/>
-                    <Card 
+                    <Card smallTXT
                     title={`Photo`}
                     description={`With everyone having a camera in their pocket, the bar for quality photos has never been higher. Whether you need headshots, product photos, or event coverage, OVRTONE has the tools and the talent to make sure your photos are as professional as you are.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'/>
-                    <Card 
+                    <Card smallTXT
                     title={`Motion Graphics`}
                     description={`Good, consistent, branded graphics are a great foundation, but they aren't the end goal. Logo animations, titles, and explainer videos are just a few of the ways motion graphics can elevate your brand. Don't just level up your graphics. Bring them to life.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/>
