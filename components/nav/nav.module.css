@@ -128,6 +128,20 @@
     margin: 0;
     filter: grayscale(50%) brightness(35%);;
 }
+.menuBrand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    position: fixed;
+    bottom: 0;
+    right: 5vw;
+}
+.menuBrand *{
+    width: 10vw;
+    height: 10vw;
+}
 
 @media screen and (max-width: 768px){
     .container{
@@ -137,11 +151,27 @@
         justify-content: space-between;
         width: calc(100vw - 2rem);
     }
+    .menu{
+        align-items: center;
+        padding: 10vh 0;
+        height: 80vh;
+    }
+    .menu div *{
+        text-align: center;
+        margin: 2vh 0;
+    }
+    .menu div {
+        height: 20%;
+        justify-content: center;
+    }
     .brand{
         max-width: 50%;
     }
     .brand a p{
         font-size: 1.2rem;
+    }
+    .menuClose{
+        justify-content: flex-start;
     }
 
 }

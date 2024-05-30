@@ -73,6 +73,27 @@ const Nav = () => {
                                 </div>
                             </div>
                         ) : null}
+                        {isMenuVisible && isMobile ? (
+                            <div className={menuStyles}>
+                                {/* <div className={styles.menuBrand}>
+                                    <img src='http://api.ovrtonemedia.com/wp-content/uploads/2024/04/OVRTONE-Logo_White_Trans_NoText_MedRes.png' alt='OVRTONE Media Group Icon' />
+                                    </div> */}
+                                <div className={styles.menuClose} onClick={() => handleClick} style={{justifyContent: "flex-start"}}>X</div>
+                                <div className={styles.menuTop}>
+                                    <Link href="/" ><motion.p initial={fadeFromRight.hidden} animate={fadeFromRight.visible} transition={{type: 'tween', ease: curve, duration: animDuration, delay: 0}}>Home</motion.p></Link>
+                                    <Link href="/about" ><motion.p initial={fadeFromRight.hidden} animate={fadeFromRight.visible} transition={{type: 'tween', ease: curve, duration: animDuration, delay: 0.1}}>About</motion.p></Link>
+                                </div>
+                                <div className={styles.menuMid}>
+                                    <Link href="/media" ><motion.p initial={fadeFromRight.hidden} animate={fadeFromRight.visible} transition={{type: 'tween', ease: curve, duration: animDuration, delay: 0.2}}>Media Production</motion.p></Link>
+                                    <Link href="/web" ><motion.p initial={fadeFromRight.hidden} animate={fadeFromRight.visible} transition={{type: 'tween', ease: curve, duration: animDuration, delay: 0.3}}>Web Design & Development</motion.p></Link>
+                                    <Link href="/branding" ><motion.p initial={fadeFromRight.hidden} animate={fadeFromRight.visible} transition={{type: 'tween', ease: curve, duration: animDuration, delay: 0.4}}>Logo & Brand Design</motion.p></Link>
+                                </div>
+                                <div className={styles.menuBottom}>
+                                    <Link href="/pricing" ><motion.p initial={fadeFromRight.hidden} animate={fadeFromRight.visible} transition={{type: 'tween', ease: curve, duration: animDuration, delay: 0.5}}>Pricing</motion.p></Link>
+                                    <Link href="/contact" ><motion.p initial={fadeFromRight.hidden} animate={fadeFromRight.visible} transition={{type: 'tween', ease: curve, duration: animDuration, delay: 0.6}}>Contact</motion.p></Link>
+                                </div>
+                            </div>
+                        ) : null}
                     </div>
                 </div>
             </div>
