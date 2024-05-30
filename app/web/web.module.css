@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 .hero {
     display: flex;
@@ -10,20 +11,32 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDevBG_v1.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.45)), url('http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDevBG_v1.jpg');
     background-size: cover;
     color: #ffffff;
 }
 .hero h1 {
-  background-image: linear-gradient(-20deg, #4fc541 15%, #ffffff 85%) ;
+  background-image: linear-gradient(-35deg, #4fc541 15%, #ffffff 85%) ;
   background-clip: text;
   color: transparent;
 }
 @media screen and (max-width: 768px){
     .hero {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        height: 45vh;
+    }
+    .hero h1 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .hero p {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 65vw;
     }
     
 }
@@ -49,12 +62,16 @@
     margin-bottom: 2rem;
 }
 
+
+
+
 .main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding: 6rem;
+    width: 100vw;
+    padding: 6rem 0 6rem 0;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 1)), url(http://api.ovrtonemedia.com/wp-content/uploads/2024/05/308781-white-geometric-wallpaper-geometry-triangle-monochrome-hd.jpg);
 }
 .main h2 {
@@ -65,6 +82,25 @@
     letter-spacing: 0.1rem;
     margin-bottom: 2rem;
 }
+@media screen and (max-width: 768px){
+    .main {
+        padding: 5vh 0;
+        align-items: center;
+    }
+    .main h2 {
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 4vh;
+        width: 90vw;
+    }
+    .main p {
+        max-width: 85vw;
+    }
+    
+}
+
+
+
 .services {
     width: 96vw;
     display: flex;
@@ -75,23 +111,66 @@
 .services *{
     margin: 20px;
 }
+@media screen and (max-width: 768px){
+    .services {
+        padding: 0 5vw;
+    }
+    .services *{
+        margin: 5vw;
+    }
+    
+}
+
+
+
+
 .testimonial {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 6rem;
+    padding: 6rem 0;
 }
+@media screen and (max-width: 768px){
+    .testimonial {
+        padding: 5vh 0;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .testimonial *{
+        text-align: center;
+    }
+    
+}
+
+
 .cta {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 6rem;
+    padding: 6rem 0;
     width: 100vw;
     height: 60vh;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 1)), url(http://api.ovrtonemedia.com/wp-content/uploads/2024/05/308781-white-geometric-wallpaper-geometry-triangle-monochrome-hd.jpg);
 }
 .cta p {
     margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px){
+    .cta {
+        padding: 5vh 0;
+        height: 45vh;
+    }
+    .cta p {
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
+    }
+    .cta h2 {
+        width: 80vw;
+        text-align: center;
+    }
+    
 }

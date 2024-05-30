@@ -22,19 +22,19 @@ function BrandingPage() {
                 <h2>How OVRTONE Can Help</h2>
                 <p>{`At OVRTONE Media Group, we believe that brand design is the foundation that all other non-logistic business aspects (web sites, social media, photos and videos, etc) build on. As such we pride ourselves on how we handle the fundamentals.`}</p>
                 <div className={styles.services}>
-                    <Card 
+                    <Card smallTXT
                     title={`Logo Design`}
                     description={`Your logo is the face of your brand. At OVRTONE, whether you’re starting from scratch or looking to refresh an existing logo, we’ll deliver a design that’s distinctive, versatile, and memorable.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/LogoDesignCardBG_v2.jpg'/>
-                    <Card 
+                    <Card smallTXT
                     title={`Style Guide`}
                     description={`Consistency is key to a strong brand, but keeping track of the specifics can get difficult. With a style guide, you have everything from color schemes to typography outlined in one place.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'/>
-                    <Card 
+                    <Card smallTXT
                     title={`Social Media Graphics`}
                     description={`While your website serves as your home base online, social media is where your brand really comes to life. High quality profile pictures and banners help demonstrate your professionalism alongside your authenticity.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/>
-                    <Card 
+                    <Card smallTXT
                     title={`Business Cards`}
                     description={`Even in the digital age, never underestimate the power of a well-designed business card. At OVRTONE, we focus on designs that strike a perfect balance between form and function - and can handle everything from the initial design to final print.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BusinessCardCardBG_v1.jpg'/>
