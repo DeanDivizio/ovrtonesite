@@ -33,7 +33,7 @@ function AboutPage() {
             </div>
             
             <div className={styles.cta}>
-                <h2>You've Found Your Creative Partner</h2>
+                <h2>{`You've Found Your Creative Partner`}</h2>
                 <p>{`Let's get started.`}</p>
                 <button className="primaryCTA">
                     <a href="/contact">Contact Us</a>
