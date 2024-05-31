@@ -41,7 +41,7 @@ const Nav = () => {
         setDynamicImage(dynamicImages[i]);
     }
     let isMobile = false;
-    if (typeof window !== "undefined" && window.innerWidth <= 720) {
+    if (typeof window !== "undefined" && window.innerWidth <= 768) {
         isMobile = true;
     }
         return (
