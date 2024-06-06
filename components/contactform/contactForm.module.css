@@ -1,0 +1,73 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 25%;
+    min-width: 250px;
+    background-color: rgba(19, 20, 26, 0.5);
+    backdrop-filter: blur(50px);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.65);
+}
+.form *{
+    margin-bottom: 5%;
+
+}
+.form input, .form textarea{
+    width: 100%;
+    background-color: #161616;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    border: none;
+    box-shadow: 0 0 25px -5px rgba(0, 0, 0, 0.35);
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.form textarea {
+    height: 10vh;
+    padding: 1.5rem 1rem 1rem 1rem;
+    resize: none;
+
+}.form input::placeholder, .form textarea::placeholder {
+    color: rgb(205, 205, 205);
+    font-style: italic;
+    font-size: 1.5rem;
+    /* Add any other styles you want for the placeholder text */
+}
+.form button{
+    background-color: #32af41;
+    box-shadow: 0 0 25px -5px rgba(0, 0, 0, 0.35);
+    border-radius: 3rem;
+    border: none;
+    padding: 1.2rem 3rem 1rem 3rem;
+    border-color: #202020;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.form button:hover{
+    background-color: #e6e6e6;
+    color: #32af41;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px){
+    .form input::placeholder, .form textarea::placeholder {
+        color: rgb(205, 205, 205);
+        font-style: italic;
+        font-size: 1rem;
+    }
+    .form button{
+        padding: 1rem 2rem 1rem 2rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+}
