@@ -24,7 +24,7 @@ body{
 }
 
 h1{
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cinzel Decorative', sans-serif;
   font-size: calc(3rem + 5vw);
   font-weight: 700;
   color: #fff;
