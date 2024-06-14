@@ -19,7 +19,7 @@ function MediaPage() {
                 <p>You deserve to be seen in the best light possible.</p>
             </div>
             <div className={styles.main}>
-                <h2>Why Choose OVRTONE?</h2>
+                <h2>Why Choose <span className="gradientText">OVRTONE</span>?</h2>
                 <p>{`At OVRTONE Media Group, Media Production is our bread and butter. In fact, it's how we got our start! Between being passionate creatives and (equally passionate) nerds, you can rest easy knowing that we'll use every tool in the toolbox to nail your creative vision on-time and on-budget, every time.`}</p>
                 <div className={styles.services}>
                     <Card smallTXT
@@ -36,7 +36,7 @@ function MediaPage() {
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/>
                 </div>
             </div>
-            <div className={styles.testimonial}>
+            {/* <div className={styles.testimonial}>
                 <h2>{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
@@ -45,7 +45,7 @@ function MediaPage() {
                 link="https://www.barkpro.live"
                 quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
-            </div>
+            </div> */}
             <div className={styles.cta}>
                 <h2>Step Into the Lime-Light</h2>
                 <p>{`Let's get started.`}</p>

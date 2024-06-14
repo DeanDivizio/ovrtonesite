@@ -20,8 +20,8 @@ function AboutPage() {
                 <br />
                 <p>{`${content2}`}</p>
             </div>
-            <div className={styles.testimonial}>
-                {/* <h2>{`Here's What Our Clients Think`}</h2> */}
+            {/* <div className={styles.testimonial}>
+              <h2>{`Here's What Our Clients Think`}</h2> 
                 <Testimonial 
                 name="Drew Rautenberg"
                 title="Owner"
@@ -29,7 +29,7 @@ function AboutPage() {
                 link="https://www.barkpro.live"
                 quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
-            </div>
+            </div> */}
             <div className={styles.main}>
                 <h2>Beyond Business</h2>
                 <p>{`At OVRTONE Media Group, we believe in the power of community and are proud to regularly donate our services to organizations throughout West Michigan. Our commitment to giving back is reflected in our support for local veterans through `}

@@ -19,7 +19,7 @@ function BrandingPage() {
                 <p>In short, a strong brand can take your business from successful to thriving.</p>
             </div>
             <div className={styles.main}>
-                <h2>How OVRTONE Can Help</h2>
+                <h2>How <span className="gradientText">OVRTONE</span> Can Help</h2>
                 <p>{`At OVRTONE Media Group, we believe that brand design is the foundation that all other non-logistic business aspects (web sites, social media, photos and videos, etc) build on. As such we pride ourselves on how we handle the fundamentals.`}</p>
                 <div className={styles.services}>
                     <Card smallTXT
@@ -30,17 +30,17 @@ function BrandingPage() {
                     title={`Style Guide`}
                     description={`Consistency is key to a strong brand, but keeping track of the specifics can get difficult. With a style guide, you have everything from color schemes to typography outlined in one place.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'/>
-                    <Card smallTXT
+                    {/* <Card smallTXT
                     title={`Social Media Graphics`}
                     description={`While your website serves as your home base online, social media is where your brand really comes to life. High quality profile pictures and banners help demonstrate your professionalism alongside your authenticity.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/>
+                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/> */}
                     <Card smallTXT
                     title={`Business Cards`}
                     description={`Even in the digital age, never underestimate the power of a well-designed business card. At OVRTONE, we focus on designs that strike a perfect balance between form and function - and can handle everything from the initial design to final print.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BusinessCardCardBG_v1.jpg'/>
                 </div>
             </div>
-            <div className={styles.testimonial}>
+            {/* <div className={styles.testimonial}>
                 <h2>{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
@@ -49,7 +49,7 @@ function BrandingPage() {
                 link="https://www.barkpro.live"
                 quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
-            </div>
+            </div> */}
             <div className={styles.cta}>
                 <h2>Become a Brand</h2>
                 <p>{`Let's get started.`}</p>

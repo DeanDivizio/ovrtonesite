@@ -7,7 +7,7 @@ function ContactPage() {
     return (
         <div className={styles.container}>
             <div className={styles.hero}>
-                <h1>Let's <br></br> Chat</h1>
+                <h1>{`Let's `}<br></br> Chat</h1>
                 <ContactForm />
             </div>
         </div>
