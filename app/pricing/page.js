@@ -16,7 +16,7 @@ export default function PricingPage () {
                 <h1>Pricing</h1>
             </div>
             <div className={styles.intro}>
-                <p><em>Every project is unique so pricing may vary, but we believe it's in line with our commitment to transparancy to make as much pricing information as standardized and available as possible.</em></p>
+                <p><em>{`Every project is unique so pricing may vary, but we believe it's in line with our commitment to transparancy to make as much pricing information as standardized and available as possible.`}</em></p>
             </div>
             <div className={styles.categoryContainer}>
                 <div className={styles.category}>
