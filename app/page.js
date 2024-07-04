@@ -35,9 +35,8 @@ export default function Home() {
         <div className={styles.servicesCards}>
           <Card
             title="Web Development"
-            description="We create beautiful, responsive websites that look great on any device."
-            image="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3204474/desktop-icon-sm.png"
-            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDesignCardBG_v2.jpg'
+            description="We create beautiful, blazing fast websites that look great on any device."
+            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'
             link="/services" />
             <Card
             title="Media Production"
@@ -53,7 +52,7 @@ export default function Home() {
             link="/services" />
         </div>
       </div>
-      {/* <div className={styles.testimonialsSection}>
+      <div className={styles.testimonialsSection}>
         <h2>Testimonials</h2>
         <p>{`Here's what some of our clients have to say about us.`}</p>
         <div className={styles.testimonials}>
@@ -65,7 +64,7 @@ export default function Home() {
             quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
             image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
         </div>
-      </div> */}
+      </div>
       <div className={styles.contactSection}>
         <h2>Contact Us</h2>
         <p>{`Ready to take your business to the next level? Let's get started.`}</p>

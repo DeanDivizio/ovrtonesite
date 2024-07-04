@@ -13,7 +13,9 @@
     background-position: center;
     box-shadow: 0 0px 36px -8px rgba(255, 255, 255, 0.05);
     transition: transform 0.3s;
+    overflow: clip;
 }
+
 .card h3{
     margin-bottom: 2rem;
     color: #e6e6e6;
@@ -30,11 +32,7 @@
     box-shadow: 0px 0px 25px 0px #00000035;
     transition: all 0.4s ease;
 }
-.card img{
-    filter:invert(1);
-    width: 12vw;
-    min-width: 300px;
-}
+
 .card button:hover {
     color:#4fc541;
 }
@@ -44,6 +42,7 @@
     line-height: 120%;
     letter-spacing: 0.1rem;
     margin-bottom: 5vh;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {

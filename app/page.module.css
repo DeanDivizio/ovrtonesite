@@ -151,7 +151,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.972),rgba(0, 0, 0, 0.98)), url(http://api.ovrtonemedia.com/wp-content/uploads/2024/05/308781-white-geometric-wallpaper-geometry-triangle-monochrome-hd.jpg);
   background-size: cover;
   color: #ffffff;
-  padding: 10vh 2rem 8vh 2rem;
+  padding: 10vh 2rem;
 }
 .servicesCards{
   display: flex;

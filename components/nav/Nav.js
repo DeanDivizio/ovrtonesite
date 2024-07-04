@@ -5,13 +5,13 @@ import styles from "./nav.module.css";
 import { motion } from 'framer-motion';
 
 const dynamicImages = [
-    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/05/Screenshot-2024-05-28-at-2.46.32 PM-Large.jpeg', alt: 'Home'},
-    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg', alt: 'About'},
-    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDesignCardBG_v2.jpg', alt: 'Web Design & Development'}, 
+    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/07/bggradient.webp', alt: 'Home'},
+    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/07/bggradient.webp', alt: 'About'},
+    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdark.webp', alt: 'Web Design & Development'}, 
     {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/05/MediaProductionCardBG_v1.jpg', alt: 'Media Production'}, 
-    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BrandDesignCardBG_v1.jpg', alt: 'Logo & Brand Design'}, 
-    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2023/04/DSC03877-Large.jpeg', alt: 'Pricing'}, 
-    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/02/IMG_0184.jpg', alt: 'Contact'}
+    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/07/logodesigndark.jpg', alt: 'Logo & Brand Design'}, 
+    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/07/bggradient.webp', alt: 'Pricing'}, 
+    {src: 'http://api.ovrtonemedia.com/wp-content/uploads/2024/07/bggradient.webp', alt: 'Contact'}
 ];
 const fadeFromRight = { 
     hidden: { opacity: 0, x: 200, margin: 0, padding: 0 },

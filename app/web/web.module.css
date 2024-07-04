@@ -101,7 +101,7 @@
 
 
 .services {
-    width: 96vw;
+    width: 90vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -129,6 +129,9 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 6rem 0;
+}
+.testimonial h2{
+    margin-bottom: 4rem;
 }
 @media screen and (max-width: 768px){
     .testimonial {

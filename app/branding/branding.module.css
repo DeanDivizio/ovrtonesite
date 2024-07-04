@@ -71,7 +71,7 @@
     align-items: flex-start;
     flex-direction: column;
     width: 90vw;
-    padding: 6rem 5vw 6rem 5vw;
+    padding: 6rem 5vw 8rem 5vw;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 1)), url(http://api.ovrtonemedia.com/wp-content/uploads/2024/05/308781-white-geometric-wallpaper-geometry-triangle-monochrome-hd.jpg);
 }
 .main h2 {
@@ -80,7 +80,7 @@
 .main p {
     line-height: 120%;
     letter-spacing: 0.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 @media screen and (max-width: 768px){
     .main {

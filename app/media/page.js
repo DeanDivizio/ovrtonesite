@@ -36,7 +36,7 @@ function MediaPage() {
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/>
                 </div>
             </div>
-            {/* <div className={styles.testimonial}>
+            <div className={styles.testimonial}>
                 <h2>{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
@@ -45,7 +45,7 @@ function MediaPage() {
                 link="https://www.barkpro.live"
                 quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
-            </div> */}
+            </div>
             <div className={styles.cta}>
                 <h2>Step Into the Lime-Light</h2>
                 <p>{`Let's get started.`}</p>
