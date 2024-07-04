@@ -61,6 +61,16 @@
     letter-spacing: 0.1rem;
     margin-bottom: 2rem;
 }
+@media screen and (max-width: 768px) {
+    .intro{
+        padding: 2rem;
+        text-align: center;
+    }
+    .intro p{
+        text-align: left;
+        line-height: 140%;
+    }
+}
 
 
 
@@ -84,7 +94,7 @@
 }
 @media screen and (max-width: 768px){
     .main {
-        padding: 5vh 0;
+        padding: 5vh 5vw;
         align-items: center;
     }
     .main h2 {
@@ -94,6 +104,7 @@
     }
     .main p {
         max-width: 85vw;
+        line-height: 140%;
     }
     
 }
@@ -165,11 +176,12 @@
     }
     .cta p {
         font-size: 1.5rem;
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
     }
     .cta h2 {
         width: 80vw;
         text-align: center;
+        line-height: 120%;
     }
     
 }

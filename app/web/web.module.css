@@ -30,7 +30,7 @@
         height: 45vh;
     }
     .hero h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         text-align: center;
     }
     .hero p {
@@ -61,7 +61,18 @@
     letter-spacing: 0.1rem;
     margin-bottom: 2rem;
 }
-
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 2rem;
+    }
+    .intro h2 {
+        text-align: center;
+        line-height: 140%;
+    }
+    .intro p {
+        line-height: 140%;
+    }
+}
 
 
 
@@ -84,16 +95,18 @@
 }
 @media screen and (max-width: 768px){
     .main {
-        padding: 5vh 5vw;
+        padding: 8vh 5vw;
         align-items: center;
     }
     .main h2 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         text-align: center;
         margin-bottom: 4vh;
+        line-height: 140%;
     }
     .main p {
         max-width: 85vw;
+        line-height: 140%
     }
     
 }
@@ -135,13 +148,16 @@
 }
 @media screen and (max-width: 768px){
     .testimonial {
-        padding: 5vh 0;
+        padding: 8vh 0;
         justify-content: center;
         flex-direction: column;
         text-align: center;
     }
     .testimonial *{
         text-align: center;
+    }
+    .testimonial h2{
+        line-height: 140%;
     }
     
 }
@@ -168,11 +184,12 @@
     }
     .cta p {
         font-size: 1.5rem;
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
     }
     .cta h2 {
         width: 80vw;
         text-align: center;
+        line-height: 140%
     }
     
 }
