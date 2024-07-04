@@ -20,7 +20,7 @@ body{
   padding-left: 0;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.93);
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 h1{
@@ -138,4 +138,14 @@ p{
   background-image: linear-gradient(-35deg, #4fc541 15%, #ffffff 85%) ;
   background-clip: text;
   color: transparent;
+}
+
+@media screen and (max-width: 768px){
+  .primaryCTA a{
+    font-size:calc(1rem + 2vw);
+  }
+  .primaryCTA{
+    padding: 1rem 2rem 0.7rem 2rem;
+  }
+  
 }

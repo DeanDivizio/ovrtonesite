@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='layoutContainer'>
-      <IntroAnimation />
+      {/* <IntroAnimation /> */}
         <Nav />
         {children}
         <Footer />
