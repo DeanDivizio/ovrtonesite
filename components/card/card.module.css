@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 768px) {
     .card {
-        height: 60vh;
+       min-height: 400px;
         margin-bottom: 10vh;
     }
     .card h3{

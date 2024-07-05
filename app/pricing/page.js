@@ -43,6 +43,7 @@ export default function PricingPage () {
                     <div className={styles.pricingRow}>
                         <Card title={'Logo Design'} description={'From $500'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
                         <Card title={'Style Guides'} description={'From $250'} background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
+                        <Card title={'Business Card Design'} description={'From $500'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
                     </div>
                 </div>
             </div>

@@ -25,15 +25,15 @@ function WebPage() {
                     <Card smallTXT
                     title={`Design`}
                     description={`This is where it all starts. A great design is the foundation of a great website. We balance aesthetics with functionality to make sure your website is as beautiful as it is easy to use. Whether you need a new site or a redesign, we have you covered.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/LogoDesignCardBG_v2.jpg'/>
+                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDevBG_v1.jpg'/>
                     <Card smallTXT
                     title={`Build`}
-                    description={`The best design in the world is useless if it doesn't work. at OVRTONE, we build websites with a cutting-edge tech stack that's as maintainable as it is powerful. We make sure your website is fast, secure, and easy to use, so you can focus on what you do best.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'/>
+                    description={`The best design in the world is useless if it doesn't work. At OVRTONE, we build websites with a cutting-edge tech stack that's as maintainable as it is powerful. We make sure your website is fast, secure, and easy to use, so you can focus on what you do best.`}
+                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'/>
                     <Card smallTXT
                     title={`Host`}
                     description={`A great site needs great hosting. To that end, we offer hosting services that are fast, secure, and reliable. You can add, change, and remove content as needed, while we take care of the rest. We run your site so you can run your business.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/>
+                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/hosting.webp'/>
                 </div>
             </div>
             <div className={styles.testimonial}>
@@ -58,7 +58,7 @@ function WebPage() {
 };
 
 export const metadata = {
-    title: "Media Production - OVRTONE Media Group",
+    title: "Web Design & Development - OVRTONE Media Group",
     description: "Specializing in small businesses in the West Michigan area, OVRTONE offers high-end media production services to help you grow your business. Through photography, video production, motion graphics, and more, OVRTONE makes sure your creative vision is brought to life on time, and on budget, every time.",
 }
 
