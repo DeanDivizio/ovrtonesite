@@ -47,7 +47,7 @@ export default function Home() {
             <Card
             title="Brand Design"
             description="Starting from scratch? We can deliver everything you need to get started."
-            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BrandDesignCardBG_v1.jpg'
+            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/logodesigndarkblur-1.webp'
             image="/images/pencilIcon.png"
             link="/services" />
         </div>

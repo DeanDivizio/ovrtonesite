@@ -20,7 +20,7 @@ function BrandingPage() {
             </div>
             <div className={styles.main}>
                 <h2>How <span className="gradientText">OVRTONE</span> Can Help</h2>
-                <p>{`At OVRTONE Media Group, we believe that brand design is the foundation that all other non-logistic business aspects (web sites, social media, photos and videos, etc) build on. As such we pride ourselves on how we handle the fundamentals.`}</p>
+                <p>{`At OVRTONE Media Group, we believe that brand design is the foundation that all other non-logistic business aspects (web sites, social media, photos and videos, etc) build on. As such, we pride ourselves on how we handle the fundamentals.`}</p>
                 <div className={styles.services}>
                     <Card smallTXT
                     title={`Logo Design`}

@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <div className={styles.linksRight}>
                 <Link href="/contact">Contact Us</Link>
-                <Link href="/services">View Our Services</Link>
+                {/* <Link href="/services">View Our Services</Link> */}
                 <Link href="/about">About Us</Link>
                 <Link href="/pricing">Pricing</Link>
             </div>
