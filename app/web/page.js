@@ -36,18 +36,18 @@ function WebPage() {
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/hosting.webp'/>
                 </div>
             </div>
-            <div className={styles.testimonial}>
+            {/* <div className={styles.testimonial}>
                 <h2>{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
                 title="Owner"
                 company="Bark Productions"
                 link="https://www.barkpro.live"
-                quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
+                quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
-            </div>
+            </div> */}
             <div className={styles.cta}>
-                <h2>Step Into the Lime-Light</h2>
+                <h2>Bring Your Brand Online</h2>
                 <p>{`Let's get started.`}</p>
                 <button className="primaryCTA">
                     <a href="/contact">Contact Us</a>

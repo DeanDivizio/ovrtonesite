@@ -33,7 +33,7 @@ export default function PricingPage () {
                     <hr></hr>
                     <div className={styles.pricingRow}>
                         <Card title={'Video Production'} description={'Contact Us for Pricing'} link='/contact' background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
-                        <Card title={'Pro Portraits'} description={'From $375'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
+                        <Card title={'Portraits'} description={'From $375'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
                         <Card title={'Product Photos'} description={'Contact Us for Pricing'} link='/contact' background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ export default function PricingPage () {
                 title="Owner"
                 company="Bark Productions"
                 link="https://www.barkpro.live"
-                quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
+                quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
             </div>
             <div className={styles.cta}>

@@ -25,15 +25,15 @@ function MediaPage() {
                     <Card smallTXT
                     title={`Video`}
                     description={`If a picture is worth a thousand words, a video is worth... well, a lot. Videos are a powerful tool to show authenticity, showcase your products, and connect with your audience. From ads to testimonials and everything in between, OVRTONE has what you need to tell your story.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/LogoDesignCardBG_v2.jpg'/>
+                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/VideoCardBlur.webp'/>
                     <Card smallTXT
                     title={`Photo`}
                     description={`With everyone having a camera in their pocket, the bar for quality photos has never been higher. Whether you need headshots, product photos, or event coverage, OVRTONE has the tools and the talent to make sure your photos are as professional as you are.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'/>
-                    <Card smallTXT
+                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/PhotoCard.webp'/>
+                    {/* <Card smallTXT
                     title={`Motion Graphics`}
                     description={`Good, consistent, branded graphics are a great foundation, but they aren't the end goal. Logo animations, titles, and explainer videos are just a few of the ways motion graphics can elevate your brand. Don't just level up your graphics. Bring them to life.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/>
+                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/> */}
                 </div>
             </div>
             <div className={styles.testimonial}>
@@ -43,7 +43,7 @@ function MediaPage() {
                 title="Owner"
                 company="Bark Productions"
                 link="https://www.barkpro.live"
-                quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
+                quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
             </div>
             <div className={styles.cta}>
