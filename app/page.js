@@ -4,20 +4,31 @@ import Card from "@/components/card/Card";
 import Testimonial from "@/components/testimonialModule/Testimonial";
 
 
+
 export default function Home() {
+
+  let isMobile = false;
+function isMobileCheck() {
+  if (typeof window != "undefined") {
+    isMobile = true
+    console.log(isMobile);
+  }
+}
+isMobileCheck();
+
   return (
    <div className={styles.homeContainer}>
-    <div className={styles.video}>
-      <video autoPlay loop="loop" muted playsInline id="bgVid" >
+    <div className="absolute top-0 left-0 w-screen h-screen overflow-hidden z-[-2] video">
+      <video className="w-full h-full object-cover" autoPlay loop="loop" muted playsInline id="bgVid" >
         <source src="https://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
       </video>
     </div>
-    <div className={styles.overlay}></div>
-      <div className={styles.heroContent}>
-        <div className={styles.heroText}>
-        <h1>Realize <span className={styles.nonEmpHeading}><br></br>Your Goals</span></h1>
-        <p>At OVRTONE Media Group, we leverage our skills across the fields of media, technology, and design to help you land more customers, get more sales, and ultimately <em><strong>increase your bottom line.</strong></em></p>
-        <div className={styles.ctaButtons}>
+    <div className="absolute top-0 left-0 w-screen h-screen overflow-hidden z-[-1] bg-black bg-opacity-35 backdrop-blur-[100px] overlay"></div>
+      <div className="flex flex-col items-center justify-center w-[calc(100vw-10vw)] h-screen p-[0vw_5vw] bg-transparent heroContent">
+        <div className="flex flex-col items-center justify-center max-w-[90%] text-center heroText">
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-white to-secondary text-10xl xl: lg:leading-[120%] font-bold tracking-[0.6rem] mb-5 heroContent-h1">Realize <span className='font-normal text-white'><br></br>Your Goals</span></h1>
+        <p className="font-josefin text-[calc(1rem+1vw)] font-light text-white mb-[4vh] heroContent-p">At OVRTONE Media Group, we leverage our skills across the fields of media, technology, and design to help you land more customers, get more sales, and ultimately <em><strong>increase your bottom line.</strong></em></p>
+        <div className="flex items-center justify-start mt-[2vh] ctaButtons">
           <button className="primaryCTA">
             <Link href="/contact">Get Started</Link>
           </button>
@@ -26,15 +37,15 @@ export default function Home() {
           </button> */}
           </div>
         </div>
-        <div className={styles.chevron}>&#9660;</div>
+        {/* {isMobile ? null : <div className={styles.chevron}>&#9660;</div>} */}
         {/* <img className={styles.image} src="http://api.ovrtonemedia.com/wp-content/uploads/2023/04/0A3A9955-Edit-Large.jpeg" alt="Example imgage replace this text" /> */}
       </div>
-      <div className={styles.whatWeDoSection}>
+      <div className="flex flex-col items-center justify-center w-screen min-h-[80vh] bg-black bg-opacity-98 bg-cover text-white pt-20 pb-20 whatWeDoSection">
         <h2>What Do We Do?</h2>
-        <p>In short, everything you need to turn your <em>business</em> into a <em>brand</em>.</p>
+        <p className="text-center">In short, everything you need to turn your <em>business</em> into a <em>brand</em>.</p>
         <div className={styles.servicesCards}>
           <Card
-            title="Web Development"
+            title="Web Dev"
             description="We create beautiful, blazing fast websites that look great on any device."
             bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'
             link="/services" />
