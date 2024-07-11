@@ -10,7 +10,7 @@ const Footer = () => {
                 <Link href="/terms">Terms of Use</Link>
             </div>
             <div className={styles.centerContent}>
-                <img src="/images/logo.jpg" alt="OVRTONE Media Group Logo" />
+                <img src="/images/OVRTONEwhite.png" alt="OVRTONE Media Group Logo" />
                 <p>Copyright OVRTONE Media Group 2024 | All Rights Reserved | Web Design by... Us of Course!</p>
             </div>
             <div className={styles.linksRight}>
