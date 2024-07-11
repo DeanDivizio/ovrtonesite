@@ -3,10 +3,6 @@ import styles from './pricing.module.css'
 import Card from "@/components/card/Card";
 import Testimonial from "@/components/testimonialModule/Testimonial";
 
-export const metadata = {
-    title: "Pricing - OVRTONE Media Group",
-    description: `While each project is unique, we believe it's our responsibility to make our pricing as transparent as possible right from the beginning. Here's a list of our indivdual services with pricing info, so you can see for yourself.`
-}
 
 export default function PricingPage () {
 
@@ -67,4 +63,15 @@ export default function PricingPage () {
         </div>
     )
 
-}
+};
+
+export const metadata = {
+    title: "Pricing - OVRTONE Media Group",
+    description: `While each project is unique, we believe it's our responsibility to make our pricing as transparent as possible right from the beginning. Here's a list of our indivdual services with pricing info, so you can see for yourself.`,
+    keywords: ['pricing', 'media production', 'photography', 'photo', 'photographer', 'video', 'video production', 'video company', 'photography company', 'OVRTONE', 'OVRTONE Media Group', 'OVERTONE Media', 'OVERTONE Media Group'],
+    openGraph: {
+        title: "Pricing - OVRTONE Media Group",
+        description: `While each project is unique, we believe it's our responsibility to make our pricing as transparent as possible right from the beginning. Here's a list of our indivdual services with pricing info, so you can see for yourself.`,
+        url: 'https://ovrtonemedia.com/pricing',
+    },
+  };

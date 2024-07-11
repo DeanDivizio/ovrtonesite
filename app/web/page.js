@@ -57,9 +57,15 @@ function WebPage() {
     );
 };
 
+export default WebPage;
+
 export const metadata = {
     title: "Web Design & Development - OVRTONE Media Group",
-    description: "Specializing in small businesses in the West Michigan area, OVRTONE offers high-end media production services to help you grow your business. Through photography, video production, motion graphics, and more, OVRTONE makes sure your creative vision is brought to life on time, and on budget, every time.",
-}
-
-export default WebPage;
+    description: 'Your website is the face of your brand online and as such, needs to be top-tier. OVRTONE Media Group has the talent and the tools needed to make sure your online presence is everything you want it to be.',
+    keywords: ['pricing', 'media production', 'photography', 'photo', 'photographer', 'video', 'video production', 'video company', 'photography company', 'OVRTONE', 'OVRTONE Media Group', 'OVERTONE Media', 'OVERTONE Media Group'],
+    openGraph: {
+        title: "Web Design & Development - OVRTONE Media Group",
+        description: 'Your website is the face of your brand online and as such, needs to be top-tier. OVRTONE Media Group has the talent and the tools needed to make sure your online presence is everything you want it to be.',
+        url: 'https://ovrtonemedia.com/web',
+    },
+  };

@@ -14,9 +14,15 @@ function ContactPage() {
     );
 };
 
+export default ContactPage;
+
 export const metadata = {
     title: "Contact Us - OVRTONE Media Group",
-    description: "If your ready to take your business to the next level, contact OVRTONE Media Group today.",
-}
-
-export default ContactPage;
+    description: "If you're ready to take your business to the next level, contact OVRTONE Media Group today.",
+    keywords: ['contact', 'OVRTONE', 'OVRTONE Media Group', 'OVERTONE Media', 'OVERTONE Media Group'],
+    openGraph: {
+        title: "Contact Us - OVRTONE Media Group",
+        description: "If you're ready to take your business to the next level, contact OVRTONE Media Group today.",
+        url: 'https://ovrtonemedia.com/contact',
+    },
+  };

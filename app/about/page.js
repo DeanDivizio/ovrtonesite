@@ -49,9 +49,15 @@ function AboutPage() {
     );
 };
 
+export default AboutPage;
+
 export const metadata = {
     title: "About Us - OVRTONE Media Group",
     description: "Living at the intersection of media, technology, and design, OVRTONE Media Group is a full-service creative agency that helps you land more customers, get more sales, and ultimately increase your bottom line.",
-}
-
-export default AboutPage;
+    keywords: ['Media', 'Web', 'Branding', 'Video', 'Photo', 'Design', 'OVRTONE', 'OVRTONE Media Group', 'OVERTONE Media', 'OVERTONE Media Group'],
+    openGraph: {
+        title: "About Us - OVRTONE Media Group",
+        description: "Living at the intersection of media, technology, and design, OVRTONE Media Group is a full-service creative agency that helps you land more customers, get more sales, and ultimately increase your bottom line.",
+        url: 'https://ovrtonemedia.com/about',
+    },
+  };

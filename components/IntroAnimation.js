@@ -12,7 +12,7 @@ const IntroAnimation = () => {
             setVisible(false);
             const removeTimer = setTimeout(() => {
                 setShouldRender(false);
-            }, 1000); // Delay for fade-out animation
+            }, 900); // Delay for fade-out animation
             return () => clearTimeout(removeTimer);
         }, 2000); // Total duration of the animation
 
@@ -28,10 +28,7 @@ const IntroAnimation = () => {
     return (
         <div className={containerClass}>
             <div className={styles.homeContent}>
-                <img src="https://api.ovrtonemedia.com/wp-content/uploads/2024/04/OVRTONE-Logo_Black_Trans_NoText_MedRes.png" alt="OVRTONE Media Group" />
-                <h1>oVRToNE</h1>
-                <h2>Media Group</h2>
-                <Link href="mailto:contact@ovrtonemedia.com">contact@ovrtonemedia.com</Link>
+                <img src="/images/OVRTONEwithtext.webp" alt="OVRTONE Media Group" />
             </div>
         </div>
     );

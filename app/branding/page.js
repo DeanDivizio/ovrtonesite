@@ -61,9 +61,15 @@ function BrandingPage() {
     );
 };
 
+export default BrandingPage;
+
 export const metadata = {
     title: "Brand Design - OVRTONE Media Group",
     description: "Specializing in small businesses, OVRTONE offers a variety of branding services to help you grow your business. From your logo and style guide to social media graphics and business cards, we have you covered.",
-}
-
-export default BrandingPage;
+    keywords: ['Branding', 'Logo', 'Brand', 'Brand Design', 'Logo Design', 'Design', 'OVRTONE', 'OVRTONE Media Group', 'OVERTONE Media', 'OVERTONE Media Group'],
+    openGraph: {
+        title: "Brand Design - OVRTONE Media Group",
+    description: "Specializing in small businesses, OVRTONE offers a variety of branding services to help you grow your business. From your logo and style guide to social media graphics and business cards, we have you covered.",
+        url: 'https://ovrtonemedia.com/branding',
+    },
+  };

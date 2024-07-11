@@ -13,9 +13,18 @@ function ContactPage() {
     );
 };
 
-export const metadata = {
-    title: "Contact Us - OVRTONE Media Group",
-    description: "If your ready to take your business to the next level, contact OVRTONE Media Group today.",
-}
-
 export default ContactPage;
+
+export const metadata = {
+    title: "Thanks for contacting OVRTONE Media Group",
+    description: "Thank you for contacting OVRTONE. We're excited to talk with you and will be in touch shortly.",
+    robots: {
+        index: false,
+        follow: false,
+        googleBot:{
+          index: false,
+          follow: false,
+          noimageindex: true,
+        },
+      },
+  };

@@ -57,9 +57,15 @@ function MediaPage() {
     );
 };
 
+export default MediaPage;
+
 export const metadata = {
     title: "Media Production - OVRTONE Media Group",
     description: "Specializing in small businesses in the West Michigan area, OVRTONE offers high-end media production services to help you grow your business. Through photography, video production, motion graphics, and more, OVRTONE makes sure your creative vision is brought to life on time, and on budget, every time.",
-}
-
-export default MediaPage;
+    keywords: ['media', 'media production', 'photography', 'photo', 'photographer', 'video', 'video production', 'video company', 'photography company', 'OVRTONE', 'OVRTONE Media Group', 'OVERTONE Media', 'OVERTONE Media Group'],
+    openGraph: {
+        title: "Media Production - OVRTONE Media Group",
+    description: "Specializing in small businesses in the West Michigan area, OVRTONE offers high-end media production services to help you grow your business. Through photography, video production, motion graphics, and more, OVRTONE makes sure your creative vision is brought to life on time, and on budget, every time.",
+        url: 'https://ovrtonemedia.com/media',
+    },
+  };
