@@ -20,7 +20,7 @@ function WebPage() {
             </div>
             <div className={styles.main}>
                 <h2>Web Development with <span className="gradientText">OVRTONE</span></h2>
-                <p>{`At OVRTONE Media Group, Media Production is our bread and butter. In fact, it's how we got our start! Between being passionate creatives and (equally passionate) nerds, you can rest easy knowing that we'll use every tool in the toolbox to nail your creative vision on-time and on-budget, every time.`}</p>
+                <p>{`At OVRTONE Media Group, we believe there are better and worse ways to represent you business online. It's the best implementation of your brand and showcase for the media you use to represent you. Across the entire stack, from design to hosting and maintenance, our goal is to make sure you're seen - and done so in a way that's trivially easy to you.`}</p>
                 <div className={styles.services}>
                     <Card smallTXT
                     title={`Design`}
