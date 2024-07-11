@@ -16,7 +16,7 @@ export default function ContactForm() {
         setButtonText("Sending...");
         SubmitForm({ fullname, email, message })
             .then(() => {
-                router.push('/thank-you');
+                router.push('/thankyou');
             })
             .catch((error) => {
                 console.error(`Error submitting form: ${error}`);

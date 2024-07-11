@@ -2,6 +2,7 @@ import "./globals.css";
 import IntroAnimation from "../components/IntroAnimation";
 import Nav from '../components/nav/Nav';
 import Footer from '../components/footer/Footer';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata = {
   title: "OVRTONE Media Group",
@@ -42,6 +43,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='layoutContainer'>
+      <GoogleAnalytics gaId="G-FXBY3L85K8" />
       {/* <IntroAnimation /> */}
         <Nav />
         {children}
