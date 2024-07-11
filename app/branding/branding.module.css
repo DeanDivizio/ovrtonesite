@@ -27,7 +27,7 @@
         align-items: center;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        height: 45vh;
+        height: 60vh;
     }
     .hero h1 {
         font-size: 3rem;
@@ -61,6 +61,19 @@
     letter-spacing: 0.1rem;
     margin-bottom: 2rem;
 }
+@media screen and (max-width: 768px) {
+    .intro{
+        padding: 2rem;
+    }
+    .intro h2 {
+        line-height: 120%; 
+    }
+    .intro p{
+        text-align: left;
+        line-height: 140%;
+    }
+}
+
 
 
 
@@ -84,16 +97,18 @@
 }
 @media screen and (max-width: 768px){
     .main {
-        padding: 5vh 5vw;
+        padding: 8vh 5vw 0;
         align-items: center;
     }
     .main h2 {
-        font-size: 3.5rem;
-        text-align: center;
+        font-size: 2.2rem;
+        line-height: 120%;
         margin-bottom: 4vh;
+        width: 80vw;
     }
     .main p {
-        max-width: 85vw;
+        width: 80vw;
+        line-height: 140%;
     }
     
 }
@@ -160,7 +175,7 @@
 
 @media screen and (max-width: 768px){
     .cta {
-        padding: 5vh 0;
+        padding: 10vh 0;
         height: 45vh;
     }
     .cta p {

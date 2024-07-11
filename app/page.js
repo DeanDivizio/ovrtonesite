@@ -37,7 +37,7 @@ isMobileCheck();
           </button> */}
           </div>
         </div>
-        {/* {isMobile ? null : <div className={styles.chevron}>&#9660;</div>} */}
+        {/* <div className={styles.chevron}>&#9660;</div> */}
         {/* <img className={styles.image} src="http://api.ovrtonemedia.com/wp-content/uploads/2023/04/0A3A9955-Edit-Large.jpeg" alt="Example imgage replace this text" /> */}
       </div>
       <div className="flex flex-col items-center justify-center w-screen min-h-[80vh] bg-black bg-opacity-98 bg-cover text-white pt-20 pb-20 whatWeDoSection">

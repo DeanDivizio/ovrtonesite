@@ -27,10 +27,10 @@
         align-items: center;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        height: 45vh;
+        height: 60vh;
     }
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         text-align: center;
     }
     .hero p {
@@ -66,7 +66,6 @@
         padding: 2rem;
     }
     .intro h2 {
-        text-align: center;
         line-height: 140%;
     }
     .intro p {
@@ -95,18 +94,17 @@
 }
 @media screen and (max-width: 768px){
     .main {
-        padding: 8vh 5vw;
+        padding: 8vh 5vw 4vh;
         align-items: center;
     }
     .main h2 {
         font-size: 2.5rem;
-        text-align: center;
         margin-bottom: 4vh;
-        line-height: 140%;
+        width: 80vw;
     }
     .main p {
-        max-width: 85vw;
-        line-height: 140%
+        width: 80vw;
+        line-height: 140%;
     }
     
 }
@@ -125,7 +123,7 @@
 }
 @media screen and (max-width: 768px){
     .services {
-        padding: 0 5vw;
+        padding: 2vh 5vw 0;
     }
     .services *{
         margin: 5vw;
@@ -148,7 +146,7 @@
 }
 @media screen and (max-width: 768px){
     .testimonial {
-        padding: 8vh 0;
+        padding: 10vh 0;
         justify-content: center;
         flex-direction: column;
         text-align: center;

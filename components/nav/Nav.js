@@ -51,7 +51,7 @@ const Nav = () => {
                 </div>
                 <div className={styles.links}>
                     <div onClick={handleClick}>
-                        Menu
+                        {isMobile ? <img src='/images/Menu2.webp' style={{width: '8vw', opacity: '60%', marginRight: '1vw'}} /> : Menu }
                         {isMenuVisible && !isMobile ? (
                             <div className={menuStyles}>
                                 <div className={styles.menuClose} onClick={handleClick}>X</div>
