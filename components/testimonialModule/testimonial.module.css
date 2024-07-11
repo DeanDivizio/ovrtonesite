@@ -31,7 +31,6 @@
     font-weight: 300;
     color: #4fc541;
     margin-bottom: 5vh;
-    width:80%;
 }
 
 .info {
@@ -81,6 +80,9 @@
     }
     .textSection {
         width: 100%;
+    }
+    .textSection p {
+        width: 60%;
     }
     .info{
         flex-direction: column;

@@ -32,9 +32,10 @@ isMobileCheck();
           <button className="primaryCTA">
             <Link href="/contact">Get Started</Link>
           </button>
-          {/* <button className="secondaryCTA">
-            <Link href="/services">View Our Services</Link>
-          </button> */}
+          <p style={{textAlign:'center', margin: '30px'}}>or</p>
+          <button className="secondaryCTA">
+            <Link href="/pricing">View Pricing</Link>
+          </button>
           </div>
         </div>
         {/* <div className={styles.chevron}>&#9660;</div> */}
