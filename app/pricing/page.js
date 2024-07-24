@@ -29,7 +29,7 @@ export default function PricingPage () {
                     <hr></hr>
                     <div className={styles.pricingRow}>
                         <Card title={'Video Production'} description={'Contact Us for Pricing'} link='/contact' background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
-                        <Card title={'Portraits'} description={'From $375'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
+                        <Card title={'Professional Headshots'} description={'From $375'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
                         <Card title={'Product Photos'} description={'Contact Us for Pricing'} link='/contact' background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
                     </div>
                 </div>
@@ -46,12 +46,9 @@ export default function PricingPage () {
              <div className={styles.testimonial}>
                 <h2>{`Hear from a Current Client`}</h2>
                 <Testimonial 
-                name="Drew Rautenberg"
-                title="Owner"
-                company="Bark Productions"
-                link="https://www.barkpro.live"
-                quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
-                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
+                name="Brett Carlson"
+                quote="Very professional! Easy to work with, patient, and great attitude. Will absolutely work with again!"
+                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/07/Brett.jpg"/>
             </div>
             <div className={styles.cta}>
                 <h2>Build Your Brand</h2>

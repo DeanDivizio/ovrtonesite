@@ -39,12 +39,9 @@ function MediaPage() {
             <div className={styles.testimonial}>
                 <h2>{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
-                name="Drew Rautenberg"
-                title="Owner"
-                company="Bark Productions"
-                link="https://www.barkpro.live"
-                quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
-                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
+                name="Dustin Thurston"
+                quote="These guys came out to a show and took some photos of my band performing. They are super professional and got the edits back to us quickly! Can't recommend them enough!"
+                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/07/Dustin.jpg"/>
             </div>
             <div className={styles.cta}>
                 <h2>Step Into the Lime-Light</h2>

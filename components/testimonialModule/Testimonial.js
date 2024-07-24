@@ -8,10 +8,10 @@ const Testimonial = ({ name, title, company, link, quote, image }) => {
                 <img src={image} alt={name} />
             </div>
             <div className={styles.textSection}>
-                <p>{`" ${quote} "`}</p>
+                <p>{`"${quote}"`}</p>
                 <div className={styles.info}>
-                    <div className={styles.name}>{`- ${name},`}</div>
-                    <div className={styles.title}>{`${title}:`}</div>
+                    { title? <div className={styles.name}>{`- ${name},`}</div> : <div className={styles.name}>{`- ${name}`}</div> }
+                    {title ? (company ? (<div className={styles.title}>{`${title}:`}</div>) : (<div className={styles.title}>{title}</div>)) : null}
                     <div className={styles.company}><a href={link}>{company}</a></div>
                 </div>
             </div>

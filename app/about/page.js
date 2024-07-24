@@ -20,16 +20,6 @@ function AboutPage() {
                 <br />
                 <p>{`${content2}`}</p>
             </div>
-            {/* <div className={styles.testimonial}>
-              <h2>{`Here's What Our Clients Think`}</h2> 
-                <Testimonial 
-                name="Drew Rautenberg"
-                title="Owner"
-                company="Bark Productions"
-                link="https://www.barkpro.live"
-                quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
-                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
-            </div> */}
             <div className={styles.main}>
                 <h2>Beyond Business</h2>
                 <p>{`At OVRTONE Media Group, we believe in the power of community and are proud to regularly donate our services to organizations throughout West Michigan. Our commitment to giving back is reflected in our support for local veterans through `}
@@ -37,7 +27,16 @@ function AboutPage() {
                     <a href='https://michiganmetalfest.net/'>Michigan Metal Fest</a>
                     {`, which champions the arts and local talent. These initiatives allow us to contribute to causes we care deeply about and make a positive impact in our community.`}</p>;
             </div>
-            
+            <div className={styles.testimonial}>
+                <h2>{`Don't Just Take Our Word For It`}</h2>
+                <Testimonial 
+                name="Dan McCarthy"
+                title="Organizer"
+                company="Tee It Up for the Troops"
+                link={'https://dmccsheroes.com/'}
+                quote="My Charity golf outing has used OVRTONE for a couple years now, excellent service and quality results. Very satisfied. 5 stars here!"
+                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
+            </div>
             <div className={styles.cta}>
                 <h2>{`You've Found Your Creative Partner`}</h2>
                 <p>{`Let's get started.`}</p>

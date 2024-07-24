@@ -69,11 +69,9 @@ isMobileCheck();
         <p>{`Here's what some of our clients have to say about us.`}</p>
         <div className={styles.testimonials}>
           <Testimonial 
-            name="Drew Rautenberg"
-            title="Owner"
-            company="Bark Productions"
-            link="https://www.barkpro.live"
-            quote="Dean is super great and awesome and I'm gunna reccomend him for everything. uwu~"
+            name="Gabrielle Langejans"
+            title="Marketer"
+            quote={`I’ve had the opportunity to get a few headshots done from the team at OVRTONE and the entire experience was amazing! No matter the kind of pictures you’re looking for, I believe they can give you the best results! I highly recommend!`}
             image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
         </div>
       </div>
