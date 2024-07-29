@@ -72,7 +72,7 @@ isMobileCheck();
             name="Gabrielle Langejans"
             title="Marketer"
             quote={`I’ve had the opportunity to get a few headshots done from the team at OVRTONE and the entire experience was amazing! No matter the kind of pictures you’re looking for, I believe they can give you the best results! I highly recommend!`}
-            image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
+            image="http://api.ovrtonemedia.com/wp-content/uploads/2024/07/Gabby.webp"/>
         </div>
       </div>
       <div className={styles.contactSection}>

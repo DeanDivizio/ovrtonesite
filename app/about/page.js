@@ -12,7 +12,7 @@ function AboutPage() {
         <div className={styles.container}>
             <div className={styles.hero}>
                 <h1>About <br></br> OVRTONE <br></br>Media Group</h1>
-                {/* <p><em>{`Who, What, Why, etc.`}</em></p> */}
+                <p><em>{`Why we do what we do`}</em></p>
             </div>
             <div className={styles.intro}>
                 <h2>Driven by <strong>Passion</strong></h2>
@@ -34,7 +34,7 @@ function AboutPage() {
                 title="Organizer"
                 company="Tee It Up for the Troops"
                 link={'https://dmccsheroes.com/'}
-                quote="My Charity golf outing has used OVRTONE for a couple years now, excellent service and quality results. Very satisfied. 5 stars here!"
+                quote="My charity golf outing has used OVRTONE for a couple years now, excellent service and quality results. Very satisfied. 5 stars here!"
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
             </div>
             <div className={styles.cta}>
