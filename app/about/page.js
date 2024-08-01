@@ -35,7 +35,7 @@ function AboutPage() {
                 company="Tee It Up for the Troops"
                 link={'https://dmccsheroes.com/'}
                 quote="My charity golf outing has used OVRTONE for a couple years now, excellent service and quality results. Very satisfied. 5 stars here!"
-                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
+                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/08/Dan.webp"/>
             </div>
             <div className={styles.cta}>
                 <h2>{`You've Found Your Creative Partner`}</h2>
