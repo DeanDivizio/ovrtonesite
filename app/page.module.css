@@ -7,7 +7,7 @@
     width: 100vw;
 }
 .video{
-  height: 100vh;
+  height: 120vh;
   overflow: clip;
   position: absolute;
   z-index: -2;
@@ -20,7 +20,7 @@
   object-fit: cover;
 }
 .overlay{
-  height: 100vh;
+  height: 1200vh;
   overflow: clip;
   position: absolute;
   z-index: -1;
@@ -39,7 +39,7 @@
   margin: 0;
   width: calc(100vw - 10vw);
   padding: 0vw 5vw;
-  height: 100vh;
+  min-height: 100vh;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -86,12 +86,16 @@
 }
 .ctaButtons{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-top: 2vh;
 }
 .ctaButtons button {
   margin: 2rem 0rem;
+}
+.ctaButtons p {
+  margin: 30px;
 }
 .chevron{
   font-size: 2rem;
@@ -142,6 +146,12 @@
   .chevron{
     margin-top: 5vh;
     font-size: 1.5rem;
+  }
+  .ctaButtons {
+    flex-direction: column;
+  }
+  .ctaButtons p {
+    margin: 0;
   }
   
 }

@@ -32,7 +32,7 @@ isMobileCheck();
           <button className="primaryCTA">
             <Link href="/contact">Get Started</Link>
           </button>
-          <p style={{textAlign:'center', margin: '30px'}}>or</p>
+          <p style={{textAlign:'center'}}>or</p>
           <button className="secondaryCTA">
             <Link href="/pricing">View Pricing</Link>
           </button>
