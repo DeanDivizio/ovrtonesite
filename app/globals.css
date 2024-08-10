@@ -61,3 +61,13 @@ a:hover{
   color: #fff;
   letter-spacing: 2.5px;
 }
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #fff;
+  text-shadow: 2px 2px 4px 10px #000;
+  margin-bottom: 0vh;
+  margin-top: 2vh;
+  letter-spacing: 3px;
+}

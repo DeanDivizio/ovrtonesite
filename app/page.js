@@ -10,6 +10,7 @@ export default function Home() {
         <h1>oVRToNE</h1>
         <h2>Media Group</h2>
         <Link href="mailto:contact@ovrtonemedia.com">contact@ovrtonemedia.com</Link>
+        <p style={{fontSize: "2rem", color: "white"}}>Website Coming Soon</p>
         </div>
    </div>
   );
