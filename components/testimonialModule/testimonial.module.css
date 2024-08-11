@@ -1,4 +1,4 @@
-.testimonial {
+/* .testimonial {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,7 +18,7 @@
     width: 100%;
     border-radius: 2rem;
 }
-.textSection {
+/* .textSection {
     width:60%;
     padding: 20px;
     display: flex;
@@ -31,7 +31,7 @@
     font-weight: 300;
     color: #4fc541;
     margin-bottom: 5vh;
-}
+} 
 
 .info {
     width: 100%;
@@ -98,4 +98,4 @@
         margin-right: 0;
     }
     
-}
+} */

@@ -21,7 +21,7 @@ const fadeFromRight = {
 const curve = "easeInOut";
 const animDuration = 0.3;
 
-const Nav = () => {
+export default function Nav() {
     const [isMenuVisible, setMenuVisible] = useState(false);
     const [menuStyles, setMenuStyles] = useState(styles.menu);
     const [dynamicImage, setDynamicImage] = useState(dynamicImages[0]);
@@ -45,9 +45,9 @@ const Nav = () => {
         isMobile = true;
     }
         return (
-            <div className={styles.container}>
-                <div className={styles.brand}>
-                    <Link href="/"><p><span>OVRTONE</span> Media Group</p></Link>
+            <div className="flex flex-row justify-between items-center p-8 absolute z-50 w-screen">
+                <div className="mt-1 ml-2">
+                    <Link href="/" className='no-underline'><p className='font-style text-lg md:text-2xl'><span className='bg-gradient-green bg-clip-text text-transparent font-semibold '>OVRTONE</span> Media Group</p></Link>
                 </div>
                 <div className={styles.links}>
                     <div onClick={handleClick}>
@@ -99,5 +99,3 @@ const Nav = () => {
             </div>
         );
 };
-
-export default Nav;

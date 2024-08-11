@@ -17,8 +17,8 @@ const Card = ({ title, description, image, link, bgImage, smallTXT, background, 
         <div className={styles.card} style={cardStyle}>
             <h3>{title}</h3>
             {description && smallTXT ? (<p style={{fontSize:'1.5rem'}}>{description}</p>) : (<p>{description}</p>)}
-            {link && (<button className="primaryCTA" onClick={handleClick}>Learn More</button>)}
-            {goToContact && (<button className="primaryCTA" onClick={handleContactClick}>Get Started</button>)}
+            {link && (<button className="bg-primary-dim px-8 pt-5 pb-3 rounded-xl" onClick={handleClick}>Learn More</button>)}
+            {goToContact && (<button className="bg-primary-main px-8 pt-5 pb-3 rounded-xl" onClick={handleContactClick}>Get Started</button>)}
         </div>
     );
  };

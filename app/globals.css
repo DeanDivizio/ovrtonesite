@@ -30,20 +30,18 @@ body{
 
 h1{
   font-family: 'Cinzel Decorative', sans-serif;
-  font-size: calc(3rem + 5vw);
+  /* font-size: calc(3rem + 5vw);
   font-weight: 700;
   color: #fff;
   margin-bottom: 0vh;
   margin-top: 2vh;
-  letter-spacing: 3px;
+  letter-spacing: 3px; */
 }
 h2{
   font-family: 'Josefin Sans', sans-serif;
   font-size: calc(2rem + 2vw);
   font-weight: 400;
   color: #fff;
-  margin-top: 0;
-  margin-bottom: 2vh;
 }
 h3{
   font-family: 'Josefin Sans', sans-serif;
@@ -55,7 +53,7 @@ h3{
 }
 a{
   font-family: 'Josefin Sans', sans-serif;
-  font-size: calc(1rem + 1vw);
+  font-size: 2rem;
   font-weight: 300;
   letter-spacing: 2px;;
   color: #4fc541;
@@ -64,72 +62,10 @@ a{
   text-decoration: underline;
   transition: all 0.4s ease;
 }
-a:hover{
-  color: #fff;
-  letter-spacing: 2.5px;
-}
-
-.primaryCTA{
-  color: #ffffff;
-  background-color: #4fc541;
-  border: none;
-  padding: 1.2rem 2rem 0.8rem 2rem;
-  cursor: pointer;
-  border-radius: 1rem;
-  box-shadow: 0px 0px 25px 0px #00000035;
-  transition: all 0.4s ease;
-}
-.primaryCTA a{
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: calc(1rem + 1vw);
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin:0;
-}
-.primaryCTA:hover{
-  background-color: #ffffff;
-  transform: scale(1.05);
-  
-}
-.primaryCTA a:hover{
-  color: #4fc541;
-  letter-spacing: 2px;
-}
-
-.secondaryCTA {
-  background-color: transparent;
-  padding: 1.2rem 2rem 0.8rem 2rem;
-  border: none;
-  box-shadow: 0px 0px 25px 0px #00000035;
-  border-radius: 1rem;
-  border: 1px solid var(--secondary-color);
-  transition: all 0.4s ease;
-}
-.secondaryCTA a{
-  color: var(--off-white);
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: calc(1rem + 1vw);
-  font-weight: 200;
-  letter-spacing: 2px;
-  margin:0;
-}
-.secondaryCTA:hover{
-  background-color: var(--off-white);
-  transform: scale(1.02);
-  border: 0px;
-  
-}
-.secondaryCTA a:hover{
-  color: rgb(57, 70, 207);
-  letter-spacing: 2px;
-}
 
 p{
   font-family: 'Josefin Sans', sans-serif;
-  font-size: calc(1rem + 1vw);
+  font-size: 2rem;
   font-weight: 300;
   color: #ffffff;
   text-align: left;
