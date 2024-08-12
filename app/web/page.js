@@ -1,5 +1,4 @@
 import React from "react";
-import styles from './web.module.css';
 import Card from '@/components/card/Card';
 import Testimonial from "@/components/testimonialModule/Testimonial";
 
@@ -7,37 +6,49 @@ import Testimonial from "@/components/testimonialModule/Testimonial";
 function WebPage() {
     
     return (
-        <div className={styles.container}>
-            <div className={styles.hero}>
-                <h1>Web Design<br></br>&<br></br>Development</h1>
-                <p><em>{`Your Brand's Digital Keystone`}</em></p>
+        <div className='overflow-x-hidden'>
+            <div className='flex flex-col justify-center lg:flex-row lg:justify-around p-20 text-center lg:text-left items-center w-screen min-h-screen bg-cover bg-web-hero'>
+                <h1 className="bg-gradient-green bg-clip-text text-transparent text-5xl 3xl:text-[8rem] mb-12 leading-[120%] md:leading-[140%] font-semibold">Web Design<br></br>&<br></br>Development</h1>
+                <p className="text-center"><em>{`Craft Your Digital Keystone`}</em></p>
             </div>
-            <div className={styles.intro}>
-                <h2>{`Your Brand's Home Base`}</h2>
-                <p>{`With everything from cell phones to refrigerators being online, the question isn't`} <em>{`"Do I need a website?"`}</em>{` (yes, you do) it's,`}<em>{`"How do I get the best website for my business?"`}</em></p> 
+            <div className="flex justify-center items-start flex-col px-16 lg:px-24 py-24 lg:py-36">
+                <h2 className="mb-8">{`The Right Question`}</h2>
+                <p className="pb-6">{`Every outstanding website starts with the right questions. What message do you want to convey? What experience do you want your visitors to have? How can you put your business's best foot forward for as many people as possible? These questions guide the process, ensuring that the final product isn't just a website, but a powerful tool that drives engagement and growth. The right website starts with the right question.`}</p>
+                <br></br>
+                <p className="pb-6">{`And with everything from cell phones to refrigerators being online, that question isn't`} <em>{`"Do I need a website?"`}</em>{` (yes, you do); it's, `}<em>{`"How do I get the best website for my business?"`}</em></p> 
                 <br />
                 <p>As you might imagine, we have some thoughts on that.</p>
             </div>
-            <div className={styles.main}>
-                <h2>Web Development with <span className="gradientText">OVRTONE</span></h2>
-                <p>{`At OVRTONE Media Group, we believe there are better and worse ways to represent you business online. It's the best implementation of your brand and showcase for the media you use to represent you. Across the entire stack, from design to hosting and maintenance, our goal is to make sure you're seen - and done so in a way that's trivially easy to you.`}</p>
-                <div className={styles.services}>
-                    <Card smallTXT
-                    title={`Design`}
-                    description={`This is where it all starts. A great design is the foundation of a great website. We balance aesthetics with functionality to make sure your website is as beautiful as it is easy to use. Whether you need a new site or a redesign, we have you covered.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDevBG_v1.jpg'/>
-                    <Card smallTXT
-                    title={`Build`}
-                    description={`The best design in the world is useless if it doesn't work. At OVRTONE, we build websites with a cutting-edge tech stack that's as maintainable as it is powerful. We make sure your website is fast, secure, and easy to use, so you can focus on what you do best.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'/>
-                    <Card smallTXT
-                    title={`Host`}
-                    description={`A great site needs great hosting. To that end, we offer hosting services that are fast, secure, and reliable. You can add, change, and remove content as needed, while we take care of the rest. We run your site so you can run your business.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/hosting.webp'/>
+            <div className='flex justify-center items-center flex-col px-16 lg:px-24 py-24 lg:py-36 bg-dark-geo bg-cover'>
+                <h2 className="mb-8">Web Development with <span className="gradientText font-style font-semibold">OVRTONE</span></h2>
+                <p className="mb-12">{`At OVRTONE Media Group, we believe there are better and worse ways to represent you business online. Your website should be the the most comprehensive implementation of your brand and the best showcase for the media you use to represent you. From pre-production through maintenance, our goal is to make sure you're seen in the best light possible - and done so in a way that's trivially easy to you.`}</p>
+                <hr className="border border-primary-bright w-[33%] mb-36"></hr>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center max-w-[90%] md:max-w-[80%] mb-24'>
+                    <Card goToContact
+                        title={`Design`}
+                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDevBG_v1.jpg'
+                    />
+                    <p className="col-span-2">{`This is where it all starts. A great design is the foundation of a great website. We balance aesthetics with functionality to make sure your website is as beautiful as it is easy to use. Whether you need a new site or a redesign, we have you covered.`}</p>
+                </div>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center max-w-[90%] md:max-w-[80%] mb-20'>
+                    <div className='order-1 md:order-2'>
+                    <Card goToContact
+                        title={`Build`}
+                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'
+                    />
+                    </div>
+                    <p className="col-span-2 order-2 md:order-1 md:text-right">{`The best design in the world is useless if it doesn't work. At OVRTONE, we build websites with a cutting-edge tech stack that's as maintainable as it is powerful. We make sure your website is fast, secure, and easy to use, so you can focus on what you do best.`}</p>
+                    </div>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center max-w-[90%] md:max-w-[80%] mb-24'>
+                    <Card goToContact
+                        title={`Host`}
+                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/hosting.webp'
+                    />
+                    <p className="col-span-2">{`A great site needs great hosting. To that end, we offer hosting services that are fast, secure, and reliable. You can add, change, and remove content as needed, while we take care of the rest. We run your site so you can run your business.`}</p>
                 </div>
             </div>
-            <div className={styles.testimonial}>
-                <h2>{`Don't Just Take Our Word For It`}</h2>
+            <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">
+                <h2 className="text-center mb-16">{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
                 title="Owner"
@@ -46,11 +57,11 @@ function WebPage() {
                 quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
             </div>
-            <div className={styles.cta}>
-                <h2>Bring Your Brand Online</h2>
-                <p>{`Let's get started.`}</p>
-                <button className="primaryCTA">
-                    <a href="/contact">Contact Us</a>
+            <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
+                <h2 className="text-center mb-4">Bring Your Brand Online</h2>
+                <p className="text-3xl mb-12 lg:mb-16">{`Let's get started.`}</p>
+                <button className="bg-primary-dim hover:bg-primary-main transition px-8 pt-5 pb-3 rounded-xl">
+                    <a href="/contact" className="text-white no-underline font-semibold text-2xl lg:text-4xl tracking-wide">Contact Us</a>
                 </button>
             </div>
         </div>
