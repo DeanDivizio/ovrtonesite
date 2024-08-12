@@ -7,7 +7,7 @@ export default function Privacy() {
                 <h1 className="bg-gradient-green bg-clip-text text-transparent text-5xl 3xl:text-[8rem] mb-12 font-semibold">Privacy Policy</h1>
             </div>
             <div className="flex justify-center items-start flex-col px-16 lg:px-32 py-24 lg:py-36 bg-dark-geo">
-                <h2 className="mb-8">Keepin' it Simple</h2>
+                <h2 className="mb-8">{`Keepin' it Simple`}</h2>
                 <p>{`We have a fundemental problem with companies harvesting user data. At OVRTONE, we believe your data is yours. To that end, we can make you a few promises.`}</p>
                 <ul className="text-off-white text-xl leading-loose my-16 pl-8 border-l-primary-main border-l">
                     <li>{`We don't use tracking cookies.`}</li>
