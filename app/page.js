@@ -1,9 +1,6 @@
-import styles from "./page.module.css";
 import Link from "next/link";
 import Card from "@/components/card/Card";
 import Testimonial from "@/components/testimonialModule/Testimonial";
-
-
 
 export default function Home() {
 

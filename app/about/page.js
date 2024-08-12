@@ -1,6 +1,5 @@
 import React from "react";
 import Testimonial from "@/components/testimonialModule/Testimonial";
-import { SubmitForm } from "@/actions/sendgrid";
 
 const content1 = "OVRTONE Media Group began as a photo and video company - a way to bring our passion for capturing moments and telling stories to as many people as possible. Over time, as the concept of brand image and the need for a robust digital presence became more and more relevant, we realized we could better serve our community by expanding our services into the realms of branding and web design.";
 const content2 ='Our mission is to empower businesses by providing high-quality, comprehensive media and technology solutions that drive success. From the very beginning of logo and brand design through media production and into web design and development, we are dedicated to helping you turn your business into a brand.';
