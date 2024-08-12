@@ -48,8 +48,6 @@ h3{
   font-size: calc(1rem + 2vw);
   font-weight: 400;
   color: #fff;
-  margin-top: 0;
-  margin-bottom: 2vh;
 }
 a{
   font-family: 'Josefin Sans', sans-serif;
@@ -70,6 +68,9 @@ p{
   color: #ffffff;
   text-align: left;
   margin: 0;
+}
+button {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .gradientText{

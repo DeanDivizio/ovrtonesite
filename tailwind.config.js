@@ -34,6 +34,7 @@ module.exports = {
         "gradient-green": "linear-gradient(-35deg, var(--color-primary) 15%, var(--color-white) 85%)",
         "gradient-blue": "linear-gradient(to right, var(--color-white) 5%, var(--color-secondary) 95%)",
         'about-hero': "linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.45)), url('http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BrandDesignBG_v1.jpg')",
+        'media-hero': "linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.45)), url('http://api.ovrtonemedia.com/wp-content/uploads/2024/05/VideoProductionBG_v1.jpg')",
         "dark-geo": "linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 1)), url(http://api.ovrtonemedia.com/wp-content/uploads/2024/05/308781-white-geometric-wallpaper-geometry-triangle-monochrome-hd.jpg)",
       },
       screens: {

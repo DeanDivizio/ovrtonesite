@@ -1,10 +1,9 @@
 import React from "react";
-import styles from './about.module.css';
 import Testimonial from "@/components/testimonialModule/Testimonial";
 import { SubmitForm } from "@/actions/sendgrid";
 
-const content1 = "OVRTONE Media Group began as a humble photo and video company - a way to bring our passion for capturing moments and telling stories to as many people as possible. Over time, as the concept of brand image and the need for a robust digital presence became more and more relevant, we realized we could better serve our community by expanding our services into the realms of branding and web design.";
-const content2 ='Our mission is to empower small businesses by providing high-quality, comprehensive media solutions that drive success. From the very beginning of logo and brand design through media production and into web design and development, we are dedicated to helping you turn your business into a brand.';
+const content1 = "OVRTONE Media Group began as a photo and video company - a way to bring our passion for capturing moments and telling stories to as many people as possible. Over time, as the concept of brand image and the need for a robust digital presence became more and more relevant, we realized we could better serve our community by expanding our services into the realms of branding and web design.";
+const content2 ='Our mission is to empower businesses by providing high-quality, comprehensive media and technology solutions that drive success. From the very beginning of logo and brand design through media production and into web design and development, we are dedicated to helping you turn your business into a brand.';
 
 function AboutPage() {
     
@@ -37,8 +36,8 @@ function AboutPage() {
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/08/Dan.webp"/>
             </div>
             <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
-                <h2 className="text-center">{`You've Found Your Creative Partner`}</h2>
-                <p className="text-2xl mb-12 lg:mb-20">{`Let's get started.`}</p>
+                <h2 className="text-center mb-4">{`You've Found Your Creative Partner`}</h2>
+                <p className="text-3xl mb-12 lg:mb-16">{`Let's get started.`}</p>
                 <button className="bg-primary-main hover:bg-primary-light transition px-8 pt-5 pb-3 rounded-xl">
                     <a href="/contact" className="text-white no-underline font-semibold text-2xl lg:text-4xl tracking-wide">Contact Us</a>
                 </button>
