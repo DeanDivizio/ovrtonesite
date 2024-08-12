@@ -5,6 +5,9 @@
     justify-content: center;
     margin: 20px;
     min-width: 250px;
+    @media  (min-width: 768px) {
+        min-width: 600px;
+    }
     background-color: rgba(19, 20, 26, 0.5);
     backdrop-filter: blur(50px);
     padding: 2rem;

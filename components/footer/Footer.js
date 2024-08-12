@@ -10,7 +10,7 @@ const Footer = () => {
                     <Link href="/terms" className="text-white decoration-slate-light text-sm md:text-xl font-thin text-right">Terms</Link>
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                    <img src="/images/OVRTONEwhite.png" alt="OVRTONE Media Group Logo" className="h-full md:h-auto md:w-[60%]"/>
+                    <img src="/images/OVRTONEwhite.png" alt="OVRTONE Media Group Logo" className="h-full md:h-auto md:w-[60%]" href="/"/>
                 </div>
                 <div className="flex flex-col justify-center items-start">
                     <Link href="/contact" className="text-white decoration-slate-light text-sm md:text-xl font-thin text-right">Contact</Link>

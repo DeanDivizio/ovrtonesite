@@ -23,8 +23,8 @@ isMobileCheck();
     <div className="absolute top-0 left-0 w-screen h-screen overflow-hidden z-[-1] bg-black bg-opacity-35 backdrop-blur-[100px] overlay"></div>
       <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-transparent">
         <div className="flex flex-col items-center justify-center max-w-[90%] text-center heroText">
-        <h1 className="text-transparent bg-clip-text bg-gradient-blue text-5xl lg:text-[10rem] leading-[130%] lg:leading-[120%] font-bold tracking-[0.6rem] mb-6 md:mb-8 mt-20 md:mt-0">Realize <span className='font-normal text-white'><br></br>Your Goals</span></h1>
-        <p className="font-light text-white mb-12 text-lg md:text-4xl md:leading-snug text-center">At OVRTONE Media Group, we leverage our skills across the fields of media, technology, and design to help you land more customers, get more sales, and ultimately <em><strong>increase your bottom line.</strong></em></p>
+        <h1 className="text-transparent bg-clip-text bg-gradient-blue text-5xl lg:text-7xl 2xl:text-[10rem] leading-[130%] lg:leading-[120%] font-bold tracking-[0.6rem] mb-6 md:mb-8 mt-20 md:mt-0">Realize <span className='font-normal text-white'><br></br>Your Goals</span></h1>
+        <p className="font-light text-white mb-12 text-lg md:text-2xl 2xl:text-4xl md:leading-snug text-center">At OVRTONE Media Group, we leverage our skills across the fields of media, technology, and design to help you land more customers, get more sales, and ultimately <em><strong>increase your bottom line.</strong></em></p>
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-8 justify-start mt-[2vh]">
           <button className="bg-primary-dim hover:bg-primary-light transition px-8 pt-5 pb-3 rounded-xl">
             <Link href="/contact" className="text-white no-underline text-xl md:text-4xl tracking-wide">Get Started</Link>
@@ -44,19 +44,19 @@ isMobileCheck();
             title="Web Dev"
             description="We create beautiful, blazing fast websites that look great on any device."
             bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'
-            link="/services" />
+            link="/web" />
             <Card
             title="Media Production"
             description="Represent your brand with media that resonates."
             image="/images/cameraIcon.png"
             bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/MediaProductionCardBG_v1.jpg'
-            link="/services" />
+            link="/media" />
             <Card
             title="Brand Design"
             description="Starting from scratch? We can deliver everything you need to get started."
             bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/logodesigndarkblur-1.webp'
             image="/images/pencilIcon.png"
-            link="/services" />
+            link="/branding" />
         </div>
       </div>
       <div className="flex flex-col px-8 py-24 lg:py-36 justify-start items-center">
