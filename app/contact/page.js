@@ -1,13 +1,12 @@
 import React from "react";
-import styles from './contact.module.css';
 import ContactForm from "@/components/contactform/ContactForm";
 
 function ContactPage() {
     
     return (
-        <div className={styles.container}>
-            <div className={styles.hero}>
-                <h1>{`Let's `}<br></br> Chat</h1>
+        <div className='overflow-x-hidden'>
+            <div className='flex justify-around items-center min-h-screen bg-web-hero bg-cover'>
+                <h1 className="text-8xl md:text-[10rem] bg-gradient-green text-transparent bg-clip-text leading-normal font-semibold text-center md:text-left">{`Get`}<br></br>Started</h1>
                 <ContactForm />
             </div>
         </div>

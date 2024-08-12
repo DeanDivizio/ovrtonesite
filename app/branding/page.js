@@ -7,41 +7,47 @@ import Testimonial from "@/components/testimonialModule/Testimonial";
 function BrandingPage() {
     
     return (
-        <div className={styles.container}>
-            <div className={styles.hero}>
-                <h1>Brand <br></br> Design</h1>
-                <p><em>{`While Businesses Survive, Brands Thrive.`}</em></p>
+        <div className='overflow-x-hidden'>
+            <div className='flex flex-col justify-center lg:flex-row lg:justify-around p-20 text-center lg:text-left items-center w-screen min-h-screen bg-cover bg-web-hero'>
+                <h1 className="bg-gradient-green bg-clip-text text-transparent text-5xl 3xl:text-[8rem] mb-12 leading-[120%] md:leading-[140%] font-semibold">Brand <br></br> Design</h1>
+                <p className="text-center"><em>{`While Businesses Survive, Brands Thrive.`}</em></p>
             </div>
-            <div className={styles.intro}>
-                <h2>From Business to Brand</h2>
-                <p>{`Having a strong brand can elevate your business in so many ways. It’s not just about looking good—though that’s a big part of it. A well-defined brand builds trust and loyalty with your customers. It makes your business memorable and helps you stand out in a crowded market. A strong brand tells your customers that you’re serious about what you do, letting you command higher prices and foster customer loyalty, while driving repeat business and word-of-mouth referrals.`}</p> 
+            <div className="flex justify-center items-start flex-col px-16 lg:px-24 py-24 lg:py-36">
+                <h2 className="mb-8">From Business to Brand</h2>
+                <p className="pb-6">{`Having a strong brand can elevate your business in so many ways. It’s not just about looking good—though that’s a big part of it. A well-defined brand builds trust and loyalty with your customers. It makes your business memorable and helps you stand out in a crowded market. A strong brand tells your customers that you’re serious about what you do, letting you command higher prices and foster customer loyalty, while driving repeat business and word-of-mouth referrals.`}</p> 
                 <br />
                 <p>In short, a strong brand can take your business from successful to thriving.</p>
             </div>
-            <div className={styles.main}>
-                <h2>How <span className="gradientText">OVRTONE</span> Can Help</h2>
-                <p>{`At OVRTONE Media Group, we believe that brand design is the foundation that all other non-logistic business aspects (web sites, social media, photos and videos, etc) build on. As such, we pride ourselves on how we handle the fundamentals.`}</p>
-                <div className={styles.services}>
-                    <Card smallTXT
-                    title={`Logo Design`}
-                    description={`Your logo is the face of your brand. At OVRTONE, whether you’re starting from scratch or looking to refresh an existing logo, we’ll deliver a design that’s distinctive, versatile, and memorable.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/LogoDesignCardBG_v2.jpg'/>
-                    <Card smallTXT
-                    title={`Style Guide`}
-                    description={`Consistency is key to a strong brand, but keeping track of the specifics can get difficult. With a style guide, you have everything from color schemes to typography outlined in one place.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'/>
-                    {/* <Card smallTXT
-                    title={`Social Media Graphics`}
-                    description={`While your website serves as your home base online, social media is where your brand really comes to life. High quality profile pictures and banners help demonstrate your professionalism alongside your authenticity.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/> */}
-                    <Card smallTXT
-                    title={`Business Cards`}
-                    description={`Even in the digital age, never underestimate the power of a well-designed business card. At OVRTONE, we focus on designs that strike a perfect balance between form and function - and can handle everything from the initial design to final print.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BusinessCardCardBG_v1.jpg'/>
+            <div className='flex justify-center items-center flex-col px-16 lg:px-24 py-24 lg:py-36 bg-dark-geo bg-cover'>
+                <h2 className="mb-8">How <span className="gradientText font-style font-semibold">OVRTONE</span> Can Help</h2>
+                <p className="mb-12">{`At OVRTONE Media Group, we believe that brand design is the foundation that all other non-logistic business aspects (web sites, social media, photos and videos, etc) build on. As such, we pride ourselves on how we handle the fundamentals.`}</p>
+                <hr className="border border-primary-bright w-[33%] mb-36"></hr>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center max-w-[90%] md:max-w-[80%] mb-24'>
+                    <Card goToContact
+                        title={`Logo Design`}
+                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/LogoDesignCardBG_v2.jpg'
+                    />
+                    <p className="col-span-2">{`Your logo is the face of your brand. At OVRTONE, whether you’re starting from scratch or looking to refresh an existing logo, we’ll deliver a design that’s distinctive, versatile, and memorable.`}</p>
                 </div>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center max-w-[90%] md:max-w-[80%] mb-20'>
+                    <div className='order-1 md:order-2'>
+                    <Card goToContact
+                        title={`Style Guide`}
+                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'
+                    />
+                    </div>
+                    <p className="col-span-2 order-2 md:order-1 md:text-right">{`Consistency is key to a strong brand, but keeping track of the specifics can get difficult. With a style guide, you have everything from color schemes to typography outlined in one place.`}</p>
+                    </div>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center max-w-[90%] md:max-w-[80%] mb-24'>
+                    <Card goToContact
+                        title={`Business Cards`}
+                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BusinessCardCardBG_v1.jpg'
+                    />
+                    <p className="col-span-2">{`Even in the digital age, never underestimate the power of a well-designed business card. At OVRTONE, we focus on designs that strike a perfect balance between form and function - and can handle everything from the initial design to final print.`}</p>
+                </div>          
             </div>
-            {/* <div className={styles.testimonial}>
-                <h2>{`Don't Just Take Our Word For It`}</h2>
+            {/* <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">
+                <h2 className="text-center mb-16">{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Drew Rautenberg"
                 title="Owner"
@@ -50,11 +56,11 @@ function BrandingPage() {
                 quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
             </div> */}
-            <div className={styles.cta}>
-                <h2>Become a Brand</h2>
-                <p>{`Let's get started.`}</p>
-                <button className="primaryCTA">
-                    <a href="/contact">Contact Us</a>
+            <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
+                <h2 className="text-center mb-4">Become a Brand</h2>
+                <p className="text-3xl mb-12 lg:mb-16">{`Let's get started.`}</p>
+                <button className="bg-primary-dim hover:bg-primary-main transition px-8 pt-5 pb-3 rounded-xl">
+                    <a href="/contact" className="text-white no-underline font-semibold text-2xl lg:text-4xl tracking-wide">Contact Us</a>
                 </button>
             </div>
         </div>

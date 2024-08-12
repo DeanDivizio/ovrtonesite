@@ -18,13 +18,12 @@ function MediaPage() {
                 <p>You deserve to be seen in the best light possible.</p>
             </div>
             <div className='flex justify-center items-center flex-col px-16 lg:px-24 py-24 lg:py-36 bg-dark-geo'>
-                <h2 className="mb-8">Why Choose <span className="gradientText">OVRTONE</span>?</h2>
+                <h2 className="mb-8">Why Choose <span className="gradientText font-style font-semibold">OVRTONE</span>?</h2>
                 <p className="mb-12">{`At OVRTONE Media Group, Media Production is our bread and butter. In fact, it's how we got our start! Between being passionate creatives and (equally passionate) nerds, you can rest easy knowing that we'll use every tool in the toolbox to nail your creative vision on-time and on-budget, every time.`}</p>
                 <hr className="border border-primary-bright w-[33%] mb-36"></hr>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center max-w-[90%] md:max-w-[80%] mb-24'>
                     <Card goToContact
                     title={`Video`}
-                    // description={`If a picture is worth a thousand words, a video is worth... well, a lot. Videos are a powerful tool to show authenticity, showcase your products, and connect with your audience. From ads to testimonials and everything in between, OVRTONE has what you need to tell your story.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/VideoCardBlur.webp'/>
                     <p className="col-span-2">{`If a picture is worth a thousand words, a video is worth... well, a lot. Videos are a powerful tool to show authenticity, showcase your products, and connect with your audience. From ads to testimonials and everything in between, OVRTONE has what you need to tell your story.`}</p>
                 </div>
@@ -32,14 +31,9 @@ function MediaPage() {
                     <div className='order-1 md:order-2'>
                     <Card goToContact
                     title={`Photo`}
-                    // description={`With everyone having a camera in their pocket, the bar for quality photos has never been higher. Whether you need headshots, product photos, or event coverage, OVRTONE has the tools and the talent to make sure your photos are as professional as you are.`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/PhotoCard.webp'/>
                     </div>
                     <p className="col-span-2 order-2 md:order-1 md:text-right">{`With everyone having a camera in their pocket, the bar for quality photos has never been higher. Whether you need headshots, product photos, or event coverage, OVRTONE has the tools and the talent to make sure your photos are as professional as you are.`}</p>
-                    {/* <Card smallTXT
-                    title={`Motion Graphics`}
-                    description={`Good, consistent, branded graphics are a great foundation, but they aren't the end goal. Logo animations, titles, and explainer videos are just a few of the ways motion graphics can elevate your brand. Don't just level up your graphics. Bring them to life.`}
-                    bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/SocialMediaCardBG_v1.jpg'/> */}
                 </div>
             </div>
             <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">
