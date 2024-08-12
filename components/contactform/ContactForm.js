@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import styles from "./contactForm.module.css";
 import { SubmitForm } from "@/actions/sendgrid";
-
+// takes form data and emails through sendgrid
 export default function ContactForm() {
     const [fullname, setFullname] = useState("");
     const [email, setEmail] = useState("");
