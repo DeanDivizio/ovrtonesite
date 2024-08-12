@@ -37,7 +37,7 @@ isMobileCheck();
         </div>
       </div>
       <div className="flex flex-col items-center justify-center w-screen min-h-[80vh] bg-dark-geo text-white px-3 md:px-8 py-24 lg:py-36">
-        <h2 className="text-center mb-8 md:mb-3">What Do We Do?</h2>
+        <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">What Do We Do?</h2>
         <p className="text-center text-4xl mb-16">In short, everything you need to turn your <em>business</em> into a <em>brand</em>.</p>
         <div className='grid items-center gap-16 md:gap-36 grid-cols-1 md:grid-cols-3'>
           <Card
@@ -60,7 +60,7 @@ isMobileCheck();
         </div>
       </div>
       <div className="flex flex-col px-8 py-24 lg:py-36 justify-start items-center">
-        <h2 className="text-center">Testimonials</h2>
+        <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">Testimonials</h2>
         <p className="mb-16 text-center">{`Here's what some of our clients have to say about us.`}</p>
           <Testimonial 
             name="Gabrielle Langejans"
@@ -69,7 +69,7 @@ isMobileCheck();
             image="http://api.ovrtonemedia.com/wp-content/uploads/2024/07/Gabby.webp"/>
       </div>
       <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo w-screen min-h-[70vh]">
-        <h2 className="text-center mb-8 md:mb-3">Contact Us</h2>
+        <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">Contact Us</h2>
         <p className="mb-8 text-center text-xl lg:text-4xl">{`Ready to take your business to the next level? Let's get started.`}</p>
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-8 justify-start mt-[2vh]">
           <button className="bg-primary-dim hover:bg-primary-light transition px-8 pt-5 pb-3 rounded-xl">
