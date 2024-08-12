@@ -54,7 +54,7 @@ function WebPage() {
                 title="Owner"
                 company="Bark Productions"
                 link="https://www.barkpro.live"
-                quote="Dean is super great and awesome and I'm gunna reccomend him for everything."
+                quote={`OVRTONE was great to work with for my small business branding project. They helped me figure out what I like and don’t like and were open to suggestions. The website they built turned out better than I could have imagined.`}
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
             </div>
             <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">

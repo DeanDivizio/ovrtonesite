@@ -1,4 +1,4 @@
 User-Agent: *
-Disallow: /
+Allow: /
 
 Sitemap: https://www.ovrtonemedia.com/sitemap.xml
