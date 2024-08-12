@@ -4,11 +4,10 @@
     align-items: center;
     justify-content: center;
     margin: 20px;
-    width: 25%;
     min-width: 250px;
     background-color: rgba(19, 20, 26, 0.5);
     backdrop-filter: blur(50px);
-    padding: 2rem 3rem;
+    padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 35px -5px rgba(0, 0, 0, 0.65);
 }

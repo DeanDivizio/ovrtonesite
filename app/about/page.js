@@ -14,19 +14,19 @@ function AboutPage() {
                 <p className="text-center"><em>{`Why we do what we do`}</em></p>
             </div>
             <div className="flex justify-center items-start flex-col px-16 lg:px-24 py-24 lg:py-36">
-                <h2 className="mb-8">Driven by <strong>Passion</strong></h2>
-                <p className="mb-6">{`${content1}`}</p> 
-                <p>{`${content2}`}</p>
+                <h2 className="mb-8 text-5xl md:text-7xl leading-snug">Driven by <strong>Passion</strong></h2>
+                <p className="mb-6 text-2xl md:text-3xl">{`${content1}`}</p> 
+                <p className="text-2xl md:text-3xl">{`${content2}`}</p>
             </div>
             <div className='flex justify-center items-start flex-col px-16 lg:px-24 py-24 lg:py-36 bg-dark-geo'>
-                <h2>Beyond Business</h2>
-                <p>{`At OVRTONE Media Group, we believe in the power of community and are proud to regularly donate our services to organizations throughout West Michigan. Our commitment to giving back is reflected in our support for local veterans through `}
-                    <a href="https://teeitupforthetroops.org/">Tee It Up for The Troops</a>{` and our involvement with `}
-                    <a href='https://michiganmetalfest.net/'>Michigan Metal Fest</a>
+                <h2 className="mb-8 text-5xl md:text-7xl leading-snug">Beyond Business</h2>
+                <p className="text-2xl md:text-3xl">{`At OVRTONE Media Group, we believe in the power of community and are proud to regularly donate our services to organizations throughout West Michigan. Our commitment to giving back is reflected in our support for local veterans through `}
+                    <a className="text-2xl md:text-3xl" href="https://teeitupforthetroops.org/">Tee It Up for The Troops</a>{` and our involvement with `}
+                    <a className="text-2xl md:text-3xl" href='https://michiganmetalfest.net/'>Michigan Metal Fest</a>
                     {`, which champions the arts and local talent. These initiatives allow us to contribute to causes we care deeply about and make a positive impact in our community.`}</p>;
             </div>
             <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">
-                <h2 className="text-center mb-16">{`Don't Just Take Our Word For It`}</h2>
+                <h2 className="text-center mb-16 text-5xl md:text-7xl leading-snug">{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Dan McCarthy"
                 title="Organizer"
@@ -36,8 +36,8 @@ function AboutPage() {
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/08/Dan.webp"/>
             </div>
             <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
-                <h2 className="text-center mb-4">{`You've Found Your Creative Partner`}</h2>
-                <p className="text-3xl mb-12 lg:mb-16">{`Let's get started.`}</p>
+                <h2 className="text-center mb-4 text-5xl leading-tight">{`You've Found Your Creative Partner`}</h2>
+                <p className="text-3xl mb-16">{`Let's get started.`}</p>
                 <button className="bg-primary-main hover:bg-primary-light transition px-8 pt-5 pb-3 rounded-xl">
                     <a href="/contact" className="text-white no-underline font-semibold text-2xl lg:text-4xl tracking-wide">Contact Us</a>
                 </button>

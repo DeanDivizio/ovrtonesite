@@ -30,25 +30,13 @@ body{
 
 h1{
   font-family: 'Cinzel Decorative', sans-serif;
-  /* font-size: calc(3rem + 5vw);
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 0vh;
-  margin-top: 2vh;
-  letter-spacing: 3px; */
 }
-h2{
+h2, h3{
   font-family: 'Josefin Sans', sans-serif;
-  font-size: calc(2rem + 2vw);
   font-weight: 400;
   color: #fff;
 }
-h3{
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: calc(1rem + 2vw);
-  font-weight: 400;
-  color: #fff;
-}
+
 a{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2rem;
