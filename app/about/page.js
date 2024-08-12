@@ -35,7 +35,7 @@ function AboutPage() {
                 image="http://api.ovrtonemedia.com/wp-content/uploads/2024/08/Dan.webp"/>
             </div>
             <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
-                <h2 className="text-center mb-4 text-5xl leading-tight">{`You've Found Your Creative Partner`}</h2>
+                <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">{`You've Found Your Creative Partner`}</h2>
                 <p className="text-3xl mb-16">{`Let's get started.`}</p>
                 <button className="bg-primary-main hover:bg-primary-light transition px-8 pt-5 pb-3 rounded-xl">
                     <a href="/contact" className="text-white no-underline font-semibold text-2xl lg:text-4xl tracking-wide">Contact Us</a>
