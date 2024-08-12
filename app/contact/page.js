@@ -6,7 +6,7 @@ function ContactPage() {
     return (
         <div className='overflow-x-hidden'>
             <div className='flex flex-wrap justify-around items-center min-h-screen bg-web-hero bg-cover pt-24'>
-                <h1 className="text-6xl md:text-[10rem] bg-gradient-green text-transparent bg-clip-text leading-normal font-semibold text-center md:text-left">{`Get`}<br></br>Started</h1>
+                <h1 className="text-5xl xl:text-6xl 2xl:text-[10rem] bg-gradient-green text-transparent bg-clip-text leading-normal font-semibold text-center md:text-left">{`Get`}<br></br>Started</h1>
                 <ContactForm />
             </div>
         </div>
