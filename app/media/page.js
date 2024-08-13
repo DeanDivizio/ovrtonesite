@@ -21,19 +21,19 @@ function MediaPage() {
                 <h2 className="mb-8 text-5xl md:text-7xl leading-snug">Why Choose <span className="gradientText font-style font-semibold">OVRTONE</span>?</h2>
                 <p className="mb-12 lg:mb-6 text-2xl md:text-3xl">{`At OVRTONE Media Group, Media Production is our bread and butter. In fact, it's how we got our start! Between being passionate creatives and (equally passionate) nerds, you can rest easy knowing that we'll use every tool in the toolbox to nail your creative vision on-time and on-budget, every time.`}</p>
                 <hr className="border border-primary-bright w-[33%] mb-16 lg:mb-36"></hr>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                     <Card goToContact
                     title={`Video`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/VideoCardBlur.webp'/>
-                    <p className="col-span-2 text-2xl md:text-3xl">{`If a picture is worth a thousand words, a video is worth... well, a lot. Videos are a powerful tool to show authenticity, showcase your products, and connect with your audience. From ads to testimonials and everything in between, OVRTONE has what you need to tell your story.`}</p>
+                    <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`If a picture is worth a thousand words, a video is worth... well, a lot. Videos are a powerful tool to show authenticity, showcase your products, and connect with your audience. From ads to testimonials and everything in between, OVRTONE has what you need to tell your story.`}</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-20'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-20'>
                     <div className='order-1 md:order-2'>
                     <Card goToContact
                     title={`Photo`}
                     bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/PhotoCard.webp'/>
                     </div>
-                    <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl">{`With everyone having a camera in their pocket, the bar for quality photos has never been higher. Whether you need headshots, product photos, or event coverage, OVRTONE has the tools and the talent to make sure your photos are as professional as you are.`}</p>
+                    <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl mt-16 md:mt-0">{`With everyone having a camera in their pocket, the bar for quality photos has never been higher. Whether you need headshots, product photos, or event coverage, OVRTONE has the tools and the talent to make sure your photos are as professional as you are.`}</p>
                 </div>
             </div>
             <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">

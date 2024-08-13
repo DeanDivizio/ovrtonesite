@@ -18,55 +18,55 @@ export default function PricingPage () {
                 <div className="flex flex-col items-center justify-center">
                     <h2 className="mb-8 text-5xl md:text-7xl leading-snug">Web</h2>
                     <hr className="border border-primary-bright w-[66%] mb-36"></hr>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <Card title={'Business Sites'} description={'From $6000'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
-                        <p className="col-span-2 text-2xl md:text-3xl">{`Also reffered to as "marketing websites", these sites are meant to showcase your brand and drive sales.`}</p>
+                        <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`Also reffered to as "marketing websites", these sites are meant to showcase your brand and drive sales.`}</p>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <div className='order-1 md:order-2'>
                             <Card title={'eCommerce Sites'} description={'From $15000'} background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
                         </div>
-                        <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl">{`Ecommerce sites refer to any sites that revolve primarily around selling products and services.`}</p>
+                        <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl mt-16 md:mt-0">{`Ecommerce sites refer to any sites that revolve primarily around selling products and services.`}</p>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <Card title={'Hosting & Maintenace'} description={'From $600/yr'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
-                        <p className="col-span-2 text-2xl md:text-3xl">{`We consider hosting and maintenance to involve everything from the DNS onwards. We offer hosting solutions for all aspects of your site (front end, content management, product management, database(s)) that come with maintenance serivces to ensure every piece of the puzzle stays up to date and secure. When we host your site, we do it right.`}</p>                        
+                        <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`We consider hosting and maintenance to involve everything from the DNS onwards. We offer hosting solutions for all aspects of your site (front end, content management, product management, database(s)) that come with maintenance serivces to ensure every piece of the puzzle stays up to date and secure. When we host your site, we do it right.`}</p>                        
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h2 className="mb-8 text-5xl md:text-7xl leading-snug">Media</h2>
                     <hr className="border border-primary-bright w-[66%] mb-36"></hr>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <Card title={'Video Production'} description={'Contact Us for Pricing'} goToContact background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
-                        <p className="col-span-2 text-2xl md:text-3xl">{`Our video production process is nothing short of comprehensive. We'll work with you to understand your goals, then move on to script development, storyboarding, and logistics; then filming, editing, and VFX. We'll keep you're final deliverables on hand in case you ever need them but even better, we keep every asset involved in making your video on our servers - at no cost to you. So if you want to revamp/repurpose your content in the future, we can do so as cost-effectively as possible.`}</p>
+                        <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`Our video production process is nothing short of comprehensive. We'll work with you to understand your goals, then move on to script development, storyboarding, and logistics; then filming, editing, and VFX. We'll keep you're final deliverables on hand in case you ever need them but even better, we keep every asset involved in making your video on our servers - at no cost to you. So if you want to revamp/repurpose your content in the future, we can do so as cost-effectively as possible.`}</p>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <div className='order-1 md:order-2'>
                             <Card title={'Professional Headshots'} description={'From $225'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>  
                         </div>
-                        <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl">{`Need photos of you and/or your team? OVRTONE can deliver. We'll guide you through the process every step of the way to ensure you get top-notch photography without breaking a sweat - even if you're camera shy.`}</p>
+                        <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl mt-16 md:mt-0">{`Need photos of you and/or your team? OVRTONE can deliver. We'll guide you through the process every step of the way to ensure you get top-notch photography without breaking a sweat - even if you're camera shy.`}</p>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                     <Card title={'Product Photos'} description={'Contact Us for Pricing'} goToContact background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
-                        <p className="col-span-2 text-2xl md:text-3xl">{`No matter the nature of your site (ecommerce or otherwise), if you're selling products, you need good photos. OVRTONE will work with you to determine the best way to capture your products and represent your brand, so you can focus on running it.`}</p>                        
+                        <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`No matter the nature of your site (ecommerce or otherwise), if you're selling products, you need good photos. OVRTONE will work with you to determine the best way to capture your products and represent your brand, so you can focus on running it.`}</p>                        
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <h2 className="mb-8 text-5xl md:text-7xl leading-snug">Branding</h2>
                     <hr className="border border-primary-bright w-[66%] mb-36"></hr>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <Card title={'Logo Design'} description={'From $1000'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
-                        <p className="col-span-2 text-2xl md:text-3xl">{`Your brand starts with your logo. Your logo delivers your personality, colors, and fonts all in one graphic. It lets your customers know what to expect and over time, should become synonymous with your company. At OVRTONE, we believe your logo is the foundation of your brand, and we treat it as such.`}</p>
+                        <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`Your brand starts with your logo. Your logo delivers your personality, colors, and fonts all in one graphic. It lets your customers know what to expect and over time, should become synonymous with your company. At OVRTONE, we believe your logo is the foundation of your brand, and we treat it as such.`}</p>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <div className='order-1 md:order-2'>
                             <Card title={'Style Guides'} description={'From $250'} background='linear-gradient(45deg, var(--secondary-color), #161616 20%, #242424)'/>
                         </div>
-                        <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl">{`When going from business to brand, consistency is critical. Style guides give you one document that outlines all of your brand elements and provides clear guidelines on how to use them. From colors and color variations, to fonts and logo usage, your style guide gives you everything you need in one spot and is essential for brand development.`}</p>
+                        <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl mt-16 md:mt-0">{`When going from business to brand, consistency is critical. Style guides give you one document that outlines all of your brand elements and provides clear guidelines on how to use them. From colors and color variations, to fonts and logo usage, your style guide gives you everything you need in one spot and is essential for brand development.`}</p>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center md:max-w-[80%] mb-24'>
                         <Card title={'Business Cards'} description={'From $350'} background='linear-gradient(45deg, var(--primary-color), #161616 20%, #242424)'/>
-                        <p className="col-span-2 text-2xl md:text-3xl">{`Even with the prevelance of digital communication, business cards are still extremely handy. Not only will OVRTONE deliver a stellar final design for you, we'll handle printing for you - at cost - and support local printing companies in the process.`}</p>                        
+                        <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`Even with the prevelance of digital communication, business cards are still extremely handy. Not only will OVRTONE deliver a stellar final design for you, we'll handle printing for you - at cost - and support local printing companies in the process.`}</p>                        
                     </div>
                 </div>
             </div>
