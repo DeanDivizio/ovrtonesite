@@ -30,7 +30,6 @@ export const metadata = {
     siteName: 'OVRTONE Media Group',
     locale: 'en_US',
     type: 'website',
-    image: '/images/OVRTONE-Logo_Dark_wBG.webp'
   },
   // twitter: {
   //   card: 'summary',
