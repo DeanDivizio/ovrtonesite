@@ -40,7 +40,7 @@ export const metadata = {
     ]
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'OVRTONE Media Group',
     description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media production, web design, web development, and branding solutions tailored for small businesses. We service clients in Kalamazoo, Grand Rapids, Holland, and more.",
     images: ['https://www.ovrtonemedia.com/images/OVRTONE-Logo_Dark_wBG.jpg'],
