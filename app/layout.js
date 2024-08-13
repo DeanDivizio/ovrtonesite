@@ -32,7 +32,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.ovrtonemedia.com/images/OVRTONE-Logo_Dark_wBG.jpg',
+        url: 'https://www.ovrtonemedia.com/images/OGImage.jpg',
         width: 2000,
         height: 2000,
 
@@ -43,7 +43,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'OVRTONE Media Group',
     description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media production, web design, web development, and branding solutions tailored for small businesses. We service clients in Kalamazoo, Grand Rapids, Holland, and more.",
-    images: ['https://www.ovrtonemedia.com/images/OVRTONE-Logo_Dark_wBG.jpg'],
+    images: ['https://www.ovrtonemedia.com/images/TwitterImage.jpg'],
   }
 
 };
