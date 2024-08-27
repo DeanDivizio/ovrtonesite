@@ -47,7 +47,7 @@ export default function Nav() {
         return (
             <div className="flex flex-row justify-between items-center p-8 absolute z-50 w-screen">
                 <div className="mt-1 ml-2">
-                    <Link href="/" className='no-underline'><p className='font-style text-lg md:text-2xl'><span className='bg-gradient-green bg-clip-text text-transparent font-semibold '>OVRTONE</span> Media Group</p></Link>
+                    <Link href="/" className='no-underline'><p className='font-style text-lg lg:text-2xl'><span className='bg-gradient-green bg-clip-text text-transparent font-semibold '>OVRTONE</span> Media Group</p></Link>
                 </div>
                 <div className={styles.links}>
                     <div onClick={handleClick}>
