@@ -21,28 +21,28 @@ function BrandingPage() {
                 <h2 className="mb-8 text-5xl md:text-7xl leading-snug">How <span className="gradientText font-style font-semibold">OVRTONE</span> Can Help</h2>
                 <p className="mb-12 text-2xl md:text-3xl">{`At OVRTONE Media Group, we believe that brand design is the foundation that all other non-logistic business aspects (web sites, social media, photos and videos, etc) build on. As such, we pride ourselves on how we handle the fundamentals.`}</p>
                 <hr className="border border-primary-bright w-[33%] mb-36"></hr>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-24'>
                     <Card goToContact
                         title={`Logo Design`}
                         bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/LogoDesignCardBG_v2.jpg'
                     />
-                    <p className="col-span-2 text-2xl md:text-3xl">{`Your logo is the face of your brand. At OVRTONE, whether you’re starting from scratch or looking to refresh an existing logo, we’ll deliver a design that’s distinctive, versatile, and memorable.`}</p>
+                    <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`Your logo is the face of your brand. At OVRTONE, whether you’re starting from scratch or looking to refresh an existing logo, we’ll deliver a design that’s distinctive, versatile, and memorable.`}</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-20'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-20'>
                     <div className='order-1 md:order-2'>
                     <Card goToContact
                         title={`Style Guide`}
                         bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/StyleGuideCardBG_v1.jpg'
                     />
                     </div>
-                    <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl">{`Consistency is key to a strong brand, but keeping track of the specifics can get difficult. With a style guide, you have everything from color schemes to typography outlined in one place.`}</p>
+                    <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl mt-16 md:mt-0">{`Consistency is key to a strong brand, but keeping track of the specifics can get difficult. With a style guide, you have everything from color schemes to typography outlined in one place.`}</p>
                     </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-6'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-6'>
                     <Card goToContact
                         title={`Business Cards`}
                         bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/BusinessCardCardBG_v1.jpg'
                     />
-                    <p className="col-span-2 text-2xl md:text-3xl">{`Even in the digital age, never underestimate the power of a well-designed business card. At OVRTONE, we focus on designs that strike a perfect balance between form and function - and can handle everything from the initial design to final print.`}</p>
+                    <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`Even in the digital age, never underestimate the power of a well-designed business card. At OVRTONE, we focus on designs that strike a perfect balance between form and function - and can handle everything from the initial design to final print.`}</p>
                 </div>          
             </div>
             {/* <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">

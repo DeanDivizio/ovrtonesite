@@ -23,15 +23,15 @@ isMobileCheck();
     <div className="absolute top-0 left-0 w-screen h-screen overflow-hidden z-[-1] bg-black bg-opacity-35 backdrop-blur-[100px] overlay"></div>
       <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-transparent">
         <div className="flex flex-col items-center justify-center max-w-[90%] text-center heroText">
-        <h1 className="text-transparent bg-clip-text bg-gradient-blue text-5xl lg:text-7xl 2xl:text-[10rem] leading-[130%] lg:leading-[120%] font-bold tracking-[0.6rem] mb-6 md:mb-8 mt-20 md:mt-0">Realize <span className='font-normal text-white'><br></br>Your Goals</span></h1>
+        <h1 className="text-transparent bg-clip-text bg-gradient-blue text-5xl lg:text-7xl 2xl:text-[10rem] leading-[130%] lg:leading-[120%] font-bold tracking-[0.6rem] mb-6 md:mb-8 mt-20 md:mt-10 lg:mt-0">Realize <span className='font-normal text-white'><br></br>Your Goals</span></h1>
         <p className="font-light text-white mb-12 text-lg md:text-2xl 2xl:text-4xl md:leading-snug text-center">At OVRTONE Media Group, we leverage our skills across the fields of media, technology, and design to help you land more customers, get more sales, and ultimately <em><strong>increase your bottom line.</strong></em></p>
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-8 justify-start mt-[2vh]">
           <button className="bg-primary-dim hover:bg-primary-light transition px-8 pt-5 pb-3 rounded-xl">
-            <Link href="/contact" className="text-white no-underline text-xl md:text-4xl tracking-wide">Get Started</Link>
+            <Link href="/contact" className="text-white no-underline text-xl md:text-2xl lg:text-4xl tracking-wide">Get Started</Link>
           </button>
           <p className="text-xl md:text-4xl text-center">or</p>
           <button className="group bg-transparent hover:bg-off-white border border-secondary-main hover:border-off-white transition px-8 pt-5 pb-3 rounded-xl">
-            <Link href="/pricing" className="text-white group-hover:text-secondary-dim no-underline text-xl md:text-4xl font-extralight tracking-wide">View Pricing</Link>
+            <Link href="/pricing" className="text-white group-hover:text-secondary-dim no-underline text-xl md:text-2xl lg:text-4xl font-extralight tracking-wide">View Pricing</Link>
           </button>
           </div>
         </div>
@@ -39,7 +39,7 @@ isMobileCheck();
       <div className="flex flex-col items-center justify-center w-screen min-h-[80vh] bg-dark-geo text-white px-3 md:px-8 py-24 lg:py-36">
         <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">What Do We Do?</h2>
         <p className="text-center text-4xl mb-16">In short, everything you need to turn your <em>business</em> into a <em>brand</em>.</p>
-        <div className='grid items-center gap-16 md:gap-36 grid-cols-1 md:grid-cols-3'>
+        <div className='grid items-center gap-16 lg:gap-36 grid-cols-1 lg:grid-cols-3'>
           <Card
             title="Web Dev"
             description="We create beautiful, blazing fast websites that look great on any device."

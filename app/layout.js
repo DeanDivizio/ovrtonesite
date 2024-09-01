@@ -30,12 +30,21 @@ export const metadata = {
     siteName: 'OVRTONE Media Group',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: 'https://www.ovrtonemedia.com/images/OGImage.jpg',
+        width: 2000,
+        height: 2000,
+
+      }
+    ]
   },
-  // twitter: {
-  //   card: 'summary',
-  //   title: 'OVRTONE Media Group',
-  //   description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media production, web design, web development, and branding solutions tailored for small businesses. We service clients in Kalamazoo, Grand Rapids, Holland, and more.",
-  // },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'OVRTONE Media Group',
+    description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media production, web design, web development, and branding solutions tailored for small businesses. We service clients in Kalamazoo, Grand Rapids, Holland, and more.",
+    images: ['https://www.ovrtonemedia.com/images/TwitterImage.jpg'],
+  }
 
 };
 

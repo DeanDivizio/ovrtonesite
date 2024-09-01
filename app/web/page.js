@@ -23,28 +23,28 @@ function WebPage() {
                 <h2 className="mb-8 text-5xl md:text-7xl leading-snug">Web Development with <span className="gradientText font-style font-semibold">OVRTONE</span></h2>
                 <p className="mb-12 text-2xl md:text-3xl">{`At OVRTONE Media Group, we believe there are better and worse ways to represent you business online. Your website should be the the most comprehensive implementation of your brand and the best showcase for the media you use to represent you. From pre-production through maintenance, our goal is to make sure you're seen in the best light possible - and done so in a way that's trivially easy to you.`}</p>
                 <hr className="border border-primary-bright w-[33%] mb-36"></hr>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-24'>
                     <Card goToContact
                         title={`Design`}
                         bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDevBG_v1.jpg'
                     />
-                    <p className="col-span-2 text-2xl md:text-3xl">{`This is where it all starts. A great design is the foundation of a great website. We balance aesthetics with functionality to make sure your website is as beautiful as it is easy to use. Whether you need a new site or a redesign, we have you covered.`}</p>
+                    <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`This is where it all starts. A great design is the foundation of a great website. We balance aesthetics with functionality to make sure your website is as beautiful as it is easy to use. Whether you need a new site or a redesign, we have you covered.`}</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-20'>
-                    <div className='order-1 md:order-2'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-24'>
+                    <div className='order-1 md:order-2 justify-self-center'>
                     <Card goToContact
                         title={`Build`}
                         bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'
                     />
                     </div>
-                    <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl">{`The best design in the world is useless if it doesn't work. At OVRTONE, we build websites with a cutting-edge tech stack that's as maintainable as it is powerful. We make sure your website is fast, secure, and easy to use, so you can focus on what you do best.`}</p>
+                    <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl mt-16 md:mt-0">{`The best design in the world is useless if it doesn't work. At OVRTONE, we build websites with a cutting-edge tech stack that's as maintainable as it is powerful. We make sure your website is fast, secure, and easy to use, so you can focus on what you do best.`}</p>
                     </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-16 justify-center items-center md:max-w-[80%] mb-24'>
+                <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-24'>
                     <Card goToContact
                         title={`Host`}
                         bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/hosting.webp'
                     />
-                    <p className="col-span-2 text-2xl md:text-3xl">{`A great site needs great hosting. To that end, we offer hosting services that are fast, secure, and reliable. You can add, change, and remove content as needed, while we take care of the rest. We run your site so you can run your business.`}</p>
+                    <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`A great site needs great hosting. To that end, we offer hosting services that are fast, secure, and reliable. You can add, change, and remove content as needed, while we take care of the rest. We run your site so you can run your business.`}</p>
                 </div>
             </div>
             <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">

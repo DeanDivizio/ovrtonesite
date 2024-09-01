@@ -127,7 +127,7 @@
     height: 10vw;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     .container{
         flex-direction: row;
         margin-top: 10px;
