@@ -11,7 +11,7 @@ const Testimonial = ({ name, title, company, link, quote, image }) => {
                 <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:gap-3">
                     { title? <div><p className="text-off-black font-medium text-xl 3xl:text-4xl">{`- ${name},`}</p></div> : <div ><p className="text-off-black font-medium text-xl 3xl:text-4xl">{`- ${name}`}</p></div> }
                     {title ? (company ? (<div><p className="text-off-black text-xl 3xl:text-4xl">{`${title}:`}</p></div>) : (<div><p className="text-off-black text-xl 3xl:text-4xl">{title}</p></div>)) : null}
-                    <div className="text-center"><a href={link} className="text-secondary-light text-center md:text-left text-2xl lg:text-4xl">{company}</a></div>
+                    <div className="text-center"><a href={link} className="text-secondary-light text-center md:text-left text-2xl 2xl:text-4xl">{company}</a></div>
                 </div>
             </div>
         </div>
