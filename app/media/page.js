@@ -36,8 +36,8 @@ function MediaPage() {
                     <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl lg:text-3xl mt-16 md:mt-0">{`With everyone having a camera in their pocket, the bar for quality photos has never been higher. Whether you need headshots, product photos, or event coverage, OVRTONE has the tools and the talent to make sure your photos are as professional as you are.`}</p>
                 </div>
             </div>
-            <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">
-                <h2 className="text-center mb-6 text-5xl md:text-7xl leading-snug">{`Don't Just Take Our Word For It`}</h2>
+            <div className="flex flex-col px-8 py-24 lg:py-36 justify-start items-center">
+                <h2 className="text-center mb-16 text-5xl md:text-7xl leading-snug">{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Dustin Thurston"
                 quote="These guys came out to a show and took some photos of my band performing. They are super professional and got the edits back to us quickly! Can't recommend them enough!"

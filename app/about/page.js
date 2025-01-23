@@ -24,8 +24,8 @@ function AboutPage() {
                     <a className="text-2xl md:text-3xl" href='https://michiganmetalfest.net/'>Michigan Metal Fest</a>
                     {`, which champions the arts and local talent. These initiatives allow us to contribute to causes we care deeply about and make a positive impact in our community.`}</p>;
             </div>
-            <div className="flex flex-col px-8 py-24 lg:py-36 justify-around items-center">
-                <h2 className="text-center mb-16 text-5xl md:text-7xl leading-snug">{`Don't Just Take Our Word For It`}</h2>
+            <div className="flex flex-col px-8 py-24 lg:py-36 justify-start items-center">
+                <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">{`Don't Just Take Our Word For It`}</h2>
                 <Testimonial 
                 name="Dan McCarthy"
                 title="Organizer"
