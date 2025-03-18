@@ -6,7 +6,7 @@ import { Cinzel_Decorative, Cinzel, Josefin_Sans } from "next/font/google"
 
 export const metadata:Metadata = {
   title: "OVRTONE Media Group",
-  description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media production, web design, web development, and branding solutions tailored for small businesses. We service clients in Kalamazoo, Grand Rapids, Holland, and more.",
+  description: "Throughout West Michigan, OVRTONE Media offers high-quality, media, design, and development solutions to both businesses and individuals. We service clients in Kalamazoo, Grand Rapids, Holland, Grand Haven, and more.",
   robots: {
     index: true,
     follow: true,
@@ -25,7 +25,7 @@ export const metadata:Metadata = {
   publisher: 'OVRTONE Media Group, LLC',
   openGraph: {
     title: 'OVRTONE Media Group',
-    description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media production, web design, web development, and branding solutions tailored for small businesses. We service clients in Kalamazoo, Grand Rapids, Holland, and more.",
+    description: "Throughout West Michigan, OVRTONE Media offers high-quality, media, design, and development solutions to both businesses and individuals. We service clients in Kalamazoo, Grand Rapids, Holland, Grand Haven, and more.",
     url: 'https://ovrtonemedia.com',
     siteName: 'OVRTONE Media Group',
     locale: 'en_US',
@@ -42,7 +42,7 @@ export const metadata:Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'OVRTONE Media Group',
-    description: "Throughout West Michigan, OVRTONE Media offers high-quality, affordable media production, web design, web development, and branding solutions tailored for small businesses. We service clients in Kalamazoo, Grand Rapids, Holland, and more.",
+    description: "Throughout West Michigan, OVRTONE Media offers high-quality, media, design, and development solutions to both businesses and individuals. We service clients in Kalamazoo, Grand Rapids, Holland, Grand Haven, and more.",
     images: ['https://www.ovrtonemedia.com/images/TwitterImage.jpg'],
   }
 
