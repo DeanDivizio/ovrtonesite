@@ -48,19 +48,19 @@ export const metadata:Metadata = {
 
 };
 
-export const headingFont = Cinzel ({
+const headingFont = Cinzel ({
   subsets: ['latin'],
   display: 'swap',
   weight: 'variable',
   variable: '--font-heading'
 })
-export const accentFont = Cinzel_Decorative ({
+const accentFont = Cinzel_Decorative ({
   subsets: ['latin'],
   display: 'swap',
   weight: '700',
   variable: '--font-accent'
 })
-export const bodyFont = Josefin_Sans ({
+const bodyFont = Josefin_Sans ({
   subsets: ['latin'],
   display: 'swap',
   weight: 'variable',
