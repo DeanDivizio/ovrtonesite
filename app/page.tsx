@@ -11,7 +11,9 @@ export default function RootHome() {
 
     return (
         <main className={`absolute overflow-hidden h-full w-full flex justify-center items-center animate-in fade-in transition duration-1000 ${hoveredButton === "blue" ? "bg-white" : ""}`}>
-        
+        <div id="whiteBG"
+          className={`absolute inset-0 bg-white ${animateOut === true && hoveredButton !== "blue" ? "opacity-0 duration-0" : "opacity-100"}`}
+        />
         <div
           id="darkBG"
           className={`absolute inset-0 pulse-slow-animation ${animateOut === true ? "opacity-0 duration-1000" : "opacity-100"}`}
@@ -26,6 +28,7 @@ export default function RootHome() {
             opacity: hoveredButton === "blue" ? 1 : 0,
           }}
         />
+        
   
         <div id="content" className={`relative z-10 flex flex-col items-center justify-center h-full w-full px-4 text-center ${animateOut === true ? "opacity-0 duration-1000" : "opacity-100"}`}>
           <h1 className={`font-heading text-4xl md:text-5xl 2xl:text-7xl font-bold mb-4 drop-shadow-lg transition-all duration-500 ${hoveredButton === "blue" ? "text-black" : "text-white"}`}>

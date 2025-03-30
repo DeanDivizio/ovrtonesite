@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../globals.css";
 import Header from "@/components/personalSection/Header";
+import Footer from "@/components/personalSection/Footer";
 
 
 export const metadata:Metadata = {
@@ -55,7 +56,7 @@ export default function BusinessLayout({
   return (<>
         <Header />
         {children}
-        {/*footer here*/}
+        <Footer />
         </>
   );
 }

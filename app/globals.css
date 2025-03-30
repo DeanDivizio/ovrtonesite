@@ -125,3 +125,11 @@
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
 }
+
+.fadeFromWhiteLayer {
+  animation: fadeFromWhite 1.5s ease-out 0s 1 forwards;
+}
+@keyframes fadeFromWhite {
+  0% {background-color: white;}
+  100% {background-color: transparent;}
+}
