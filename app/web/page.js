@@ -26,7 +26,7 @@ function WebPage() {
                 <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-24'>
                     <Card goToContact
                         title={`Design`}
-                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/WebDevBG_v1.jpg'
+                        bgImage='http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/WebDevBG_v1.jpg'
                     />
                     <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`This is where it all starts. A great design is the foundation of a great website. We balance aesthetics with functionality to make sure your website is as beautiful as it is easy to use. Whether you need a new site or a redesign, we have you covered.`}</p>
                 </div>
@@ -34,7 +34,7 @@ function WebPage() {
                     <div className='order-1 md:order-2 justify-self-center'>
                     <Card goToContact
                         title={`Build`}
-                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'
+                        bgImage='http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/webdarkBlur.webp'
                     />
                     </div>
                     <p className="col-span-2 order-2 md:order-1 md:text-right text-2xl md:text-3xl mt-16 md:mt-0">{`The best design in the world is useless if it doesn't work. At OVRTONE, we build websites with a cutting-edge tech stack that's as maintainable as it is powerful. We make sure your website is fast, secure, and easy to use, so you can focus on what you do best.`}</p>
@@ -42,7 +42,7 @@ function WebPage() {
                 <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16 justify-center items-center lg:max-w-[80%] mb-24'>
                     <Card goToContact
                         title={`Host`}
-                        bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/hosting.webp'
+                        bgImage='http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/hosting.webp'
                     />
                     <p className="col-span-2 text-2xl md:text-3xl mt-16 md:mt-0">{`A great site needs great hosting. To that end, we offer hosting services that are fast, secure, and reliable. You can add, change, and remove content as needed, while we take care of the rest. We run your site so you can run your business.`}</p>
                 </div>
@@ -55,7 +55,7 @@ function WebPage() {
                 company="Bark Productions"
                 link="https://www.barkpro.live"
                 quote={`OVRTONE was great to work with for my small business branding project. They helped me figure out what I like and don’t like and were open to suggestions. The website they built turned out better than I could have imagined.`}
-                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/05/photo_2024-05-23-10.04.28.jpeg"/>
+                image="http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/drewR.jpeg"/>
             </div>
             <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
                 <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">Bring Your Brand Online</h2>

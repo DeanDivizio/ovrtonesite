@@ -32,7 +32,7 @@ function AboutPage() {
                 company="Tee It Up for the Troops"
                 link={'https://dmccsheroes.com/'}
                 quote="My charity golf outing has used OVRTONE for a couple years now, excellent service and quality results. Very satisfied. 5 stars here!"
-                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/08/Dan.webp"/>
+                image="http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/danM.webp"/>
             </div>
             <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
                 <h2 className="text-center mb-4 text-5xl md:text-7xl leading-snug">{`You've Found Your Creative Partner`}</h2>

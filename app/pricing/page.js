@@ -75,7 +75,7 @@ export default function PricingPage () {
                 <Testimonial 
                 name="Brett Carlson"
                 quote="Very professional! Easy to work with, patient, and great attitude. Will absolutely work with again!"
-                image="http://api.ovrtonemedia.com/wp-content/uploads/2024/07/Brett.jpg"/>
+                image="http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/brettC.jpg"/>
             </div>
             <div className="flex flex-col justify-center items-center px-16 py-24 lg:py-36 bg-dark-geo min-h-[60vh]">
                 <h2 className="mb-4 text-center text-5xl md:text-7xl leading-snug">Build Your Brand</h2>
