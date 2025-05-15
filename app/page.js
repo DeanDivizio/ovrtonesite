@@ -17,7 +17,7 @@ isMobileCheck();
    <div className="overflow-x-hidden">
     <div className="absolute top-0 left-0 w-screen h-screen overflow-hidden z-[-2] video">
       <video className="w-full h-full object-cover" autoPlay loop="loop" muted playsInline id="bgVid" >
-        <source src="https://api.ovrtonemedia.com/wp-content/uploads/2024/05/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
+        <source src="http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/OVRTONE_Site_BGvid_V1.mov" type="video/mp4"/>
       </video>
     </div>
     <div className="absolute top-0 left-0 w-screen h-screen overflow-hidden z-[-1] bg-black bg-opacity-35 backdrop-blur-[100px] overlay"></div>
@@ -43,18 +43,18 @@ isMobileCheck();
           <Card
             title="Web Dev"
             description="We create beautiful, blazing fast websites that look great on any device."
-            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/webdarkBlur.webp'
+            bgImage='http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/webdarkBlur.webp'
             link="/web" />
             <Card
             title="Media Production"
             description="Represent your brand with media that resonates."
             image="/images/cameraIcon.png"
-            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/05/MediaProductionCardBG_v1.jpg'
+            bgImage='http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/MediaProductionCardBG_v1.jpg'
             link="/media" />
             <Card
             title="Brand Design"
             description="Starting from scratch? We can deliver everything you need to get started."
-            bgImage='http://api.ovrtonemedia.com/wp-content/uploads/2024/07/logodesigndarkblur-1.webp'
+            bgImage='http://newapi.ovrtonemedia.com/wp-content/uploads/2025/04/logodesigndarkblur-1.webp'
             image="/images/pencilIcon.png"
             link="/branding" />
         </div>

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
         images: {
-          domains: ['api.ovrtonemedia.com'],
+          domains: ['newapi.ovrtonemedia.com', 'ovrtonemedia.com', 'localhost'],
         },
 };
 
