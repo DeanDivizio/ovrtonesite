@@ -5,7 +5,7 @@ import TransitionLink from '@/components/utils/TransitionLink';
 
 export default function RootHome() {
 
-  const [hoveredButton, setHoveredButton] = useState<"none" | "green" | "blue">("none")
+  const [hoveredButton, setHoveredButton] = useState<"none" | "green" | "blue">("blue")
   const [animateOut, setAnimateOut] = useState<true | false>(false);
 
 
@@ -44,10 +44,10 @@ export default function RootHome() {
             <p>Web</p>
           </div>
   
-          <div>
-            <p className={`mb-2 text-lg font-body ${hoveredButton === "blue" ? "text-neutral-800" : "text-neutral-100"}`}>I am a...</p>
+          <div className='w-full px-4'>
+            <p className={`mb-2 text-lg font-body ${hoveredButton === "blue" ? "text-neutral-800" : "text-neutral-100"}`}>Thank you for your interest in OVRTONE Media Group. <br className='mb-2'/>We're not currently taking new clients - but we wish you all the best in your search for a creative partner.</p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-4">
+          {/* <div className="flex flex-col sm:flex-row gap-4">
             <TransitionLink href={"/business"}>
               <Button
                 variant="default"
@@ -66,7 +66,7 @@ export default function RootHome() {
                 {`Individual`}
               </Button>
             </TransitionLink>
-          </div>
+          </div> */}
         </div>
         </main>
   )
